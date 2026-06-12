@@ -10,7 +10,7 @@
     {
       "id": "dv-001",
       "title": "Entering & the Queue",
-      "scene": "You and Radhi reach a temple for evening darshan. At the entrance, an elderly volunteer manages footwear and the queue.",
+      "scene": "You and R reach a temple for evening darshan. At the entrance, an elderly volunteer manages footwear and the queue.",
       "steps": [
         {
           "type": "dialogue",
@@ -146,13 +146,13 @@
         },
         {
           "type": "choice",
-          "prompt": "Say yes, and give your name as Sree",
+          "prompt": "Say yes, and give your name as S",
           "choices": [
             {
-              "kannada": "Houdu, hesaru Sree antha.",
-              "script": "ಹೌದು, ಹೆಸರು ಶ್ರೀ ಅಂತ.",
-              "pronunciation": "HOW-du, HE-sa-ru SREE an-tha",
-              "english": "Yes, the name is Sree.",
+              "kannada": "Houdu, hesaru S antha.",
+              "script": "ಹೌದು, ಹೆಸರು ಎಸ್ ಅಂತ.",
+              "pronunciation": "HOW-du, HE-sa-ru ES an-tha",
+              "english": "Yes, the name is S.",
               "correct": true
             },
             {
@@ -161,7 +161,7 @@
               "pronunciation": "BEH-da, HE-sa-ru BEH-da",
               "english": "No, no name.",
               "correct": false,
-              "hint": "You came for the archana — that needs your name! Say 'houdu' and give it: 'hesaru Sree antha'."
+              "hint": "You came for the archana — that needs your name! Say 'houdu' and give it: 'hesaru S antha'."
             },
             {
               "kannada": "Hesaru yaaru?",
@@ -169,16 +169,16 @@
               "pronunciation": "HE-sa-ru YAA-ru",
               "english": "Whose name is it? / Who's the name?",
               "correct": false,
-              "hint": "He's asking YOU for the name. Just give it: 'hesaru Sree antha'."
+              "hint": "He's asking YOU for the name. Just give it: 'hesaru S antha'."
             }
           ],
           "correctReaction": {
             "speaker": "Priest",
             "speakerEmoji": "🧑🏽‍🦲",
-            "kannada": "Sree... nakshatra gottilla andre parvagilla. Munde banni.",
-            "script": "ಶ್ರೀ... ನಕ್ಷತ್ರ ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ ಪರವಾಗಿಲ್ಲ. ಮುಂದೆ ಬನ್ನಿ.",
-            "pronunciation": "SREE... NAK-sha-tra GOT-til-la an-dre par-VAA-gil-la. MUN-de BAN-ni",
-            "english": "Sree... if you don't know the star, it's fine. Come forward.",
+            "kannada": "S... nakshatra gottilla andre parvagilla. Munde banni.",
+            "script": "ಎಸ್... ನಕ್ಷತ್ರ ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ ಪರವಾಗಿಲ್ಲ. ಮುಂದೆ ಬನ್ನಿ.",
+            "pronunciation": "ES... NAK-sha-tra GOT-til-la an-dre par-VAA-gil-la. MUN-de BAN-ni",
+            "english": "S... if you don't know the star, it's fine. Come forward.",
             "correct": true
           },
           "wrongReaction": {

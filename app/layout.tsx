@@ -11,7 +11,7 @@ const notoKannada = Noto_Sans_Kannada({
 
 export const metadata: Metadata = {
   title: 'LearnKannada — Everyday Edition',
-  description: 'Learn everyday spoken Kannada for life in Bangalore. Built for Sree & Radhi.',
+  description: 'Learn everyday spoken Kannada for life in Bangalore. Built for S & R.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

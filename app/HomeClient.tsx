@@ -63,7 +63,7 @@ export default function HomeClient({ modules, phraseOfDay }: HomeClientProps) {
       {/* Hero */}
       <div className="bg-gradient-to-br from-[#B45309] to-[#78350F] px-4 py-8 text-center text-white">
         <div className="text-4xl mb-2">🪷</div>
-        <h1 className="text-2xl font-bold">Namaskara, Sree &amp; Radhi!</h1>
+        <h1 className="text-2xl font-bold">Namaskara, S &amp; R!</h1>
         <p className="text-amber-100 text-sm mt-1 mb-1">Bengaluru jeevana — banni, kannada kaliyona!</p>
         <p className="text-amber-200 text-xs mb-4 italic">Bangalore life — come, let&apos;s learn Kannada!</p>
         <div className="flex gap-3 justify-center flex-wrap">
