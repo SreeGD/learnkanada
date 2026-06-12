@@ -1,0 +1,330 @@
+{
+  "id": "maneya-kelasa",
+  "slug": "01-maneya-kelasa",
+  "title": "With the House Help",
+  "kannadaTitle": "ಮನೆ ಕೆಲಸ",
+  "emoji": "🧹",
+  "color": "#DB2777",
+  "phase": 1,
+  "lessons": [
+    {
+      "id": "mk-001",
+      "title": "First Day — Greetings & Timings",
+      "scene": "It's 8 a.m. in your new apartment in Indiranagar. Lakshmamma, the house help your neighbour recommended, rings the bell for the first time. You open the door.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Lakshmamma",
+          "speakerEmoji": "👩🏽",
+          "kannada": "Namaskara amma. Naanu Lakshmamma. Pakkad mane Geeta kalsidru.",
+          "script": "ನಮಸ್ಕಾರ ಅಮ್ಮ. ನಾನು ಲಕ್ಷ್ಮಮ್ಮ. ಪಕ್ಕದ ಮನೆ ಗೀತಾ ಕಳ್ಸಿದ್ರು.",
+          "pronunciation": "na-mas-KAA-ra am-ma. NAA-nu lakshmamma. PAK-kad ma-ne GEE-ta KAL-sid-ru",
+          "english": "Hello madam. I'm Lakshmamma. Geeta from the next house sent me."
+        },
+        {
+          "type": "choice",
+          "prompt": "Greet her back warmly and invite her in",
+          "choices": [
+            {
+              "kannada": "Namaskara. Banni, olage banni.",
+              "script": "ನಮಸ್ಕಾರ. ಬನ್ನಿ, ಒಳಗೆ ಬನ್ನಿ.",
+              "pronunciation": "na-mas-KAA-ra. BAN-ni, O-la-ge BAN-ni",
+              "english": "Hello. Come, come inside.",
+              "correct": true
+            },
+            {
+              "kannada": "Yaaru neenu? Enu beku?",
+              "script": "ಯಾರು ನೀನು? ಏನು ಬೇಕು?",
+              "pronunciation": "YAA-ru nee-nu? EH-nu BEH-ku",
+              "english": "Who are you? What do you want?",
+              "correct": false,
+              "hint": "Too abrupt, and 'neenu' (informal you) sounds rude to someone older. Use 'banni' (come, polite) to welcome her."
+            },
+            {
+              "kannada": "Beda, beda.",
+              "script": "ಬೇಡ, ಬೇಡ.",
+              "pronunciation": "BEH-da, BEH-da",
+              "english": "No, no (don't want).",
+              "correct": false,
+              "hint": "'Beda' means 'I don't want it' — that turns her away! You want to welcome her in."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Dhanyavada amma. Kelsa yaava time beku?",
+            "script": "ಧನ್ಯವಾದ ಅಮ್ಮ. ಕೆಲಸ ಯಾವ ಟೈಮ್ ಬೇಕು?",
+            "pronunciation": "DHAN-ya-vaa-da am-ma. KEL-sa YAA-va time BEH-ku",
+            "english": "Thank you madam. What time do you want the work?"
+          },
+          "wrongReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Geeta amma kalsidru kelsakke...",
+            "script": "ಗೀತಾ ಅಮ್ಮ ಕಳ್ಸಿದ್ರು ಕೆಲಸಕ್ಕೆ...",
+            "pronunciation": "GEE-ta am-ma KAL-sid-ru KEL-sak-ke",
+            "english": "Geeta madam sent me for the work...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "banni", "script": "ಬನ್ನಿ", "pronunciation": "BAN-ni", "english": "come (polite imperative)" },
+            { "kannada": "olage", "script": "ಒಳಗೆ", "pronunciation": "O-la-ge", "english": "inside" },
+            { "kannada": "kelsa", "script": "ಕೆಲಸ", "pronunciation": "KEL-sa", "english": "work / job" },
+            { "kannada": "amma", "script": "ಅಮ್ಮ", "pronunciation": "AM-ma", "english": "mother; also a respectful 'madam'" }
+          ],
+          "grammarTip": "Kannada has two 'you': 'neevu' (polite/plural) and 'neenu' (familiar/singular). With elders, strangers and house help, always use the polite forms — the verb ending '-i' as in 'banni', 'maadi', 'heli' carries that respect."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell her you need the work done every morning at 8 o'clock",
+          "choices": [
+            {
+              "kannada": "Pratidina belagge entu gante-ge banni.",
+              "script": "ಪ್ರತಿದಿನ ಬೆಳಗ್ಗೆ ಎಂಟು ಗಂಟೆಗೆ ಬನ್ನಿ.",
+              "pronunciation": "pra-ti-DI-na be-LAG-ge EN-tu GAN-te-ge BAN-ni",
+              "english": "Come every day at 8 o'clock in the morning.",
+              "correct": true
+            },
+            {
+              "kannada": "Yaavaglaadru banni, parvagilla.",
+              "script": "ಯಾವಾಗ್ಲಾದ್ರೂ ಬನ್ನಿ, ಪರವಾಗಿಲ್ಲ.",
+              "pronunciation": "yaa-vaag-laa-druu BAN-ni, par-VAA-gil-la",
+              "english": "Come whenever, it's fine.",
+              "correct": false,
+              "hint": "Fixing a clear time avoids confusion. 'Whenever' will lead to missed days. Give a specific time."
+            },
+            {
+              "kannada": "Raatri entu gante-ge banni.",
+              "script": "ರಾತ್ರಿ ಎಂಟು ಗಂಟೆಗೆ ಬನ್ನಿ.",
+              "pronunciation": "RAA-tri EN-tu GAN-te-ge BAN-ni",
+              "english": "Come at 8 o'clock at night.",
+              "correct": false,
+              "hint": "'Raatri' means night! For morning work say 'belagge' (morning)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Sari amma, belagge entu gante-ge bartini.",
+            "script": "ಸರಿ ಅಮ್ಮ, ಬೆಳಗ್ಗೆ ಎಂಟು ಗಂಟೆಗೆ ಬರ್ತೀನಿ.",
+            "pronunciation": "SA-ri am-ma, be-LAG-ge EN-tu GAN-te-ge BAR-tee-ni",
+            "english": "Okay madam, I'll come at 8 in the morning."
+          },
+          "wrongReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Yaava gante-ge antha heli amma.",
+            "script": "ಯಾವ ಗಂಟೆಗೆ ಅಂತ ಹೇಳಿ ಅಮ್ಮ.",
+            "pronunciation": "YAA-va GAN-te-ge an-tha HEH-li am-ma",
+            "english": "Tell me at what time, madam.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "pratidina", "script": "ಪ್ರತಿದಿನ", "pronunciation": "pra-ti-DI-na", "english": "every day" },
+            { "kannada": "belagge", "script": "ಬೆಳಗ್ಗೆ", "pronunciation": "be-LAG-ge", "english": "morning" },
+            { "kannada": "entu gante", "script": "ಎಂಟು ಗಂಟೆ", "pronunciation": "EN-tu GAN-te", "english": "eight o'clock" },
+            { "kannada": "bartini", "script": "ಬರ್ತೀನಿ", "pronunciation": "BAR-tee-ni", "english": "I will come" }
+          ],
+          "grammarTip": "Add '-ge' to a time to mean 'at that time': 'entu gante-ge' = at eight o'clock. The same '-ge' marks a destination too ('manege' = to the house)."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Tumba olleyadu. Naale belagge sigona.",
+          "script": "ತುಂಬಾ ಒಳ್ಳೆಯದು. ನಾಳೆ ಬೆಳಗ್ಗೆ ಸಿಗೋಣ.",
+          "pronunciation": "TUM-ba OL-le-ya-du. NAA-le be-LAG-ge si-GO-na",
+          "english": "Very good. See you tomorrow morning."
+        }
+      ]
+    },
+    {
+      "id": "mk-002",
+      "title": "Instructions & Asking for Leave",
+      "scene": "A week later. Lakshmamma is in the kitchen. You want her to sweep and mop today, and you also need to discuss what to cook. Then she has a request.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Lakshmamma",
+          "speakerEmoji": "👩🏽",
+          "kannada": "Amma, ivattu enu kelsa?",
+          "script": "ಅಮ್ಮ, ಇವತ್ತು ಏನು ಕೆಲಸ?",
+          "pronunciation": "am-ma, i-VAT-tu EH-nu KEL-sa",
+          "english": "Madam, what's the work today?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask her to sweep and mop the floor",
+          "choices": [
+            {
+              "kannada": "Nela gudisi, aamele ottu maadi.",
+              "script": "ನೆಲ ಗುಡಿಸಿ, ಆಮೇಲೆ ಒತ್ತು ಮಾಡಿ.",
+              "pronunciation": "NE-la gu-DI-si, aa-ME-le OT-tu MAA-di",
+              "english": "Sweep the floor, then mop it.",
+              "correct": true
+            },
+            {
+              "kannada": "Paatre toleyiri, nela beda.",
+              "script": "ಪಾತ್ರೆ ತೊಳೆಯಿರಿ, ನೆಲ ಬೇಡ.",
+              "pronunciation": "PAAT-re to-LE-yi-ri, NE-la BEH-da",
+              "english": "Wash the vessels, no floor.",
+              "correct": false,
+              "hint": "That asks for dishes, not floor cleaning. 'Nela gudisi' = sweep the floor; 'ottu maadi' = mop."
+            },
+            {
+              "kannada": "Batte ottiri.",
+              "script": "ಬಟ್ಟೆ ಒತ್ತಿರಿ.",
+              "pronunciation": "BAT-te OT-ti-ri",
+              "english": "Iron the clothes.",
+              "correct": false,
+              "hint": "That's ironing clothes. For the floor you need 'nela' (floor) + 'gudisi/ottu maadi'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Sari amma. Paatre kooda toleyali?",
+            "script": "ಸರಿ ಅಮ್ಮ. ಪಾತ್ರೆ ಕೂಡ ತೊಳೆಯಲಿ?",
+            "pronunciation": "SA-ri am-ma. PAAT-re KOO-da to-LE-ya-li",
+            "english": "Okay madam. Shall I wash the vessels too?"
+          },
+          "wrongReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Nela gudisli amma, beda?",
+            "script": "ನೆಲ ಗುಡಿಸ್ಲಿ ಅಮ್ಮ, ಬೇಡ?",
+            "pronunciation": "NE-la gu-DIS-li am-ma, BEH-da",
+            "english": "Shall I sweep the floor, madam, or not?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "nela", "script": "ನೆಲ", "pronunciation": "NE-la", "english": "floor / ground" },
+            { "kannada": "gudisi", "script": "ಗುಡಿಸಿ", "pronunciation": "gu-DI-si", "english": "sweep (polite)" },
+            { "kannada": "ottu maadi", "script": "ಒತ್ತು ಮಾಡಿ", "pronunciation": "OT-tu MAA-di", "english": "mop / wet-wipe (polite)" },
+            { "kannada": "paatre", "script": "ಪಾತ್ರೆ", "pronunciation": "PAAT-re", "english": "vessels / dishes" },
+            { "kannada": "aamele", "script": "ಆಮೇಲೆ", "pronunciation": "aa-ME-le", "english": "then / afterwards" }
+          ],
+          "grammarTip": "To give a polite instruction, take the verb stem and add '-i': gudisu → gudisi (sweep), maadu → maadi (do), tole → toleyiri (wash). Stringing them with 'aamele' (then) is how you list chores naturally."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell her to make rice and rasam for lunch",
+          "choices": [
+            {
+              "kannada": "Madhyana-kke anna mattu saaru maadi.",
+              "script": "ಮಧ್ಯಾಹ್ನಕ್ಕೆ ಅನ್ನ ಮತ್ತು ಸಾರು ಮಾಡಿ.",
+              "pronunciation": "ma-DHYAAN-ak-ke AN-na mat-tu SAA-ru MAA-di",
+              "english": "For lunch, make rice and rasam.",
+              "correct": true
+            },
+            {
+              "kannada": "Madhyana-kke enu beda.",
+              "script": "ಮಧ್ಯಾಹ್ನಕ್ಕೆ ಏನೂ ಬೇಡ.",
+              "pronunciation": "ma-DHYAAN-ak-ke EH-nuu BEH-da",
+              "english": "Nothing is needed for lunch.",
+              "correct": false,
+              "hint": "That cancels lunch entirely! Name the dishes: 'anna' (rice) and 'saaru' (rasam)."
+            },
+            {
+              "kannada": "Anna beda, saaru maatra.",
+              "script": "ಅನ್ನ ಬೇಡ, ಸಾರು ಮಾತ್ರ.",
+              "pronunciation": "AN-na BEH-da, SAA-ru MAAT-ra",
+              "english": "No rice, only rasam.",
+              "correct": false,
+              "hint": "You wanted both. 'Mattu' (and) joins them: 'anna mattu saaru'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Aytu amma. Tarakari kooda haakli?",
+            "script": "ಆಯ್ತು ಅಮ್ಮ. ತರಕಾರಿ ಕೂಡ ಹಾಕ್ಲಿ?",
+            "pronunciation": "AAY-tu am-ma. ta-ra-KAA-ri KOO-da HAAK-li",
+            "english": "Done, madam. Shall I add vegetables too?"
+          },
+          "wrongReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Adru oota-kke enaadru beku alva amma?",
+            "script": "ಆದ್ರೂ ಊಟಕ್ಕೆ ಏನಾದ್ರೂ ಬೇಕು ಅಲ್ವಾ ಅಮ್ಮ?",
+            "pronunciation": "AAD-ruu OO-tak-ke e-NAAD-ruu BEH-ku al-va am-ma",
+            "english": "But you need something for the meal, right madam?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "madhyana", "script": "ಮಧ್ಯಾಹ್ನ", "pronunciation": "ma-DHYAAN-a", "english": "noon / lunchtime" },
+            { "kannada": "anna", "script": "ಅನ್ನ", "pronunciation": "AN-na", "english": "cooked rice" },
+            { "kannada": "saaru", "script": "ಸಾರು", "pronunciation": "SAA-ru", "english": "rasam (thin spiced soup)" },
+            { "kannada": "mattu", "script": "ಮತ್ತು", "pronunciation": "MAT-tu", "english": "and" },
+            { "kannada": "tarakari", "script": "ತರಕಾರಿ", "pronunciation": "ta-ra-KAA-ri", "english": "vegetable(s)" }
+          ],
+          "grammarTip": "'Mattu' = 'and' for joining nouns. In fast speech people often drop it ('anna saaru maadi') and just pause. Use 'kooda' (also/too) to add one more thing: 'tarakari kooda'."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lakshmamma",
+          "speakerEmoji": "👩🏽",
+          "kannada": "Amma, naale nange rajaa beku. Mommagana habba.",
+          "script": "ಅಮ್ಮ, ನಾಳೆ ನಂಗೆ ರಜಾ ಬೇಕು. ಮೊಮ್ಮಗನ ಹಬ್ಬ.",
+          "pronunciation": "am-ma, NAA-le nan-ge RA-jaa BEH-ku. MOM-ma-ga-na HAB-ba",
+          "english": "Madam, I need leave tomorrow. My grandson's festival."
+        },
+        {
+          "type": "choice",
+          "prompt": "Grant the leave kindly and wish her",
+          "choices": [
+            {
+              "kannada": "Parvagilla, rajaa togoli. Habba chennagi aagli.",
+              "script": "ಪರವಾಗಿಲ್ಲ, ರಜಾ ತೊಗೊಳಿ. ಹಬ್ಬ ಚೆನ್ನಾಗಿ ಆಗ್ಲಿ.",
+              "pronunciation": "par-VAA-gil-la, RA-jaa to-GO-li. HAB-ba chen-NAA-gi AAG-li",
+              "english": "No problem, take leave. May the festival go well.",
+              "correct": true
+            },
+            {
+              "kannada": "Illa, naale kelsa beku.",
+              "script": "ಇಲ್ಲ, ನಾಳೆ ಕೆಲಸ ಬೇಕು.",
+              "pronunciation": "IL-la, NAA-le KEL-sa BEH-ku",
+              "english": "No, I need the work tomorrow.",
+              "correct": false,
+              "hint": "Technically valid, but refusing a festival leave sours the relationship. A kind 'parvagilla' goes a long way."
+            },
+            {
+              "kannada": "Naale yaake? Nange artha aagalilla.",
+              "script": "ನಾಳೆ ಯಾಕೆ? ನಂಗೆ ಅರ್ಥ ಆಗಲಿಲ್ಲ.",
+              "pronunciation": "NAA-le YAA-ke? nan-ge AR-tha AA-ga-lil-la",
+              "english": "Why tomorrow? I didn't understand.",
+              "correct": false,
+              "hint": "She explained clearly — it's her grandson's festival. Just grant the leave warmly."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Dhanyavada amma! Naadidu bartini.",
+            "script": "ಧನ್ಯವಾದ ಅಮ್ಮ! ನಾಡಿದ್ದು ಬರ್ತೀನಿ.",
+            "pronunciation": "DHAN-ya-vaa-da am-ma! NAA-did-du BAR-tee-ni",
+            "english": "Thank you madam! I'll come the day after.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Lakshmamma",
+            "speakerEmoji": "👩🏽",
+            "kannada": "Habba amma, dayavittu...",
+            "script": "ಹಬ್ಬ ಅಮ್ಮ, ದಯವಿಟ್ಟು...",
+            "pronunciation": "HAB-ba am-ma, da-ya-VIT-tu",
+            "english": "It's a festival madam, please...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "rajaa", "script": "ರಜಾ", "pronunciation": "RA-jaa", "english": "leave / holiday" },
+            { "kannada": "habba", "script": "ಹಬ್ಬ", "pronunciation": "HAB-ba", "english": "festival" },
+            { "kannada": "togoli", "script": "ತೊಗೊಳಿ", "pronunciation": "to-GO-li", "english": "take / accept (polite)" },
+            { "kannada": "aagli", "script": "ಆಗ್ಲಿ", "pronunciation": "AAG-li", "english": "let it be / may it happen" },
+            { "kannada": "naadidu", "script": "ನಾಡಿದ್ದು", "pronunciation": "NAA-did-du", "english": "the day after tomorrow" }
+          ],
+          "grammarTip": "'-li' on a verb makes a gentle wish or 'let it happen': 'aagli' (let it be), 'baruli' (let them come). It's softer than a command and very common in everyday blessings."
+        }
+      ]
+    }
+  ]
+}

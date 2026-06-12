@@ -1,0 +1,358 @@
+{
+  "phrases": [
+    {
+      "id": "sk-001",
+      "kannada": "namaskara",
+      "script": "ನಮಸ್ಕಾರ",
+      "pronunciation": "na-mas-KAA-ra",
+      "english": "Hello / Greetings",
+      "category": "greetings",
+      "tip": "Works any time of day, with anyone. A slight nod or folded hands adds warmth. Universal and always polite."
+    },
+    {
+      "id": "sk-002",
+      "kannada": "hegiddira?",
+      "script": "ಹೇಗಿದ್ದೀರಾ?",
+      "pronunciation": "HEH-gid-dee-raa",
+      "english": "How are you? (polite)",
+      "category": "greetings",
+      "tip": "The '-ira' ending is the respectful form. With a child or close friend you'd say 'hegiddiya?'."
+    },
+    {
+      "id": "sk-003",
+      "kannada": "chennagiddini",
+      "script": "ಚೆನ್ನಾಗಿದ್ದೀನಿ",
+      "pronunciation": "chen-NAA-gid-dee-ni",
+      "english": "I am fine",
+      "category": "greetings",
+      "tip": "'Chennagi' = well/nicely. You'll hear 'chennagide' (it is good) for things too."
+    },
+    {
+      "id": "sk-004",
+      "kannada": "nimma hesaru enu?",
+      "script": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+      "pronunciation": "NIM-ma he-sa-ru EH-nu",
+      "english": "What is your name?",
+      "category": "greetings",
+      "tip": "'Nimma' = your (polite). 'Enu?' = what? Drop it to just 'hesaru enu?' in casual speech."
+    },
+    {
+      "id": "sk-005",
+      "kannada": "nanage Sree antha",
+      "script": "ನನಗೆ ಶ್ರೀ ಅಂತ",
+      "pronunciation": "na-na-ge SREE an-tha",
+      "english": "I'm called Sree",
+      "category": "greetings",
+      "tip": "Literally 'to me, Sree, thus'. A very natural spoken way to give your name; 'antha' means 'that/so-called'."
+    },
+    {
+      "id": "sk-006",
+      "kannada": "dhanyavada",
+      "script": "ಧನ್ಯವಾದ",
+      "pronunciation": "DHAN-ya-vaa-da",
+      "english": "Thank you",
+      "category": "polite",
+      "tip": "Many people simply say 'thanks'. 'Dhanyavada' is warmer and always appreciated."
+    },
+    {
+      "id": "sk-007",
+      "kannada": "dayavittu",
+      "script": "ದಯವಿಟ್ಟು",
+      "pronunciation": "da-ya-VIT-tu",
+      "english": "Please",
+      "category": "polite",
+      "tip": "Often dropped in casual speech, but it softens any request nicely."
+    },
+    {
+      "id": "sk-008",
+      "kannada": "parvagilla",
+      "script": "ಪರವಾಗಿಲ್ಲ",
+      "pronunciation": "par-VAA-gil-la",
+      "english": "It's okay / no problem",
+      "category": "polite",
+      "tip": "Super useful. Also used as 'you're welcome' and 'never mind'. One of the most common words you'll hear."
+    },
+    {
+      "id": "sk-009",
+      "kannada": "kshamisi",
+      "script": "ಕ್ಷಮಿಸಿ",
+      "pronunciation": "ksha-MI-si",
+      "english": "Sorry / Excuse me",
+      "category": "polite",
+      "tip": "Use to apologise or to get someone's attention politely. Casual alternative: just 'sorry'."
+    },
+    {
+      "id": "sk-010",
+      "kannada": "houdu",
+      "script": "ಹೌದು",
+      "pronunciation": "HOW-du",
+      "english": "Yes",
+      "category": "polite",
+      "tip": "Confirming. You'll also hear 'sari' (ಸರಿ) = okay/right."
+    },
+    {
+      "id": "sk-011",
+      "kannada": "illa",
+      "script": "ಇಲ್ಲ",
+      "pronunciation": "IL-la",
+      "english": "No / Not there",
+      "category": "polite",
+      "tip": "Means both 'no' and 'there isn't any'. 'Beda' (ಬೇಡ) = 'don't want / no thanks'."
+    },
+    {
+      "id": "sk-012",
+      "kannada": "beku",
+      "script": "ಬೇಕು",
+      "pronunciation": "BEH-ku",
+      "english": "(I) want / need",
+      "category": "polite",
+      "tip": "Point at something and say 'idu beku' = I want this. Opposite is 'beda' = don't want."
+    },
+    {
+      "id": "sk-013",
+      "kannada": "beda",
+      "script": "ಬೇಡ",
+      "pronunciation": "BEH-da",
+      "english": "Don't want / No thanks",
+      "category": "polite",
+      "tip": "Polite refusal. 'Beda, dhanyavada' = no thank you."
+    },
+    {
+      "id": "sk-014",
+      "kannada": "nanage kannada swalpa baruttade",
+      "script": "ನನಗೆ ಕನ್ನಡ ಸ್ವಲ್ಪ ಬರುತ್ತದೆ",
+      "pronunciation": "na-na-ge KAN-na-da SWAL-pa ba-rut-ta-de",
+      "english": "I know a little Kannada",
+      "category": "polite",
+      "tip": "Saying this earns instant goodwill — people slow down and help. 'Swalpa' = a little."
+    },
+    {
+      "id": "sk-015",
+      "kannada": "swalpa nidhana maatadi",
+      "script": "ಸ್ವಲ್ಪ ನಿಧಾನ ಮಾತಾಡಿ",
+      "pronunciation": "SWAL-pa ni-DHAA-na MAA-taa-di",
+      "english": "Please speak slowly",
+      "category": "polite",
+      "tip": "'Nidhana' = slow(ly). 'Maatadi' = please speak. Lifesaver for beginners."
+    },
+    {
+      "id": "sk-016",
+      "kannada": "artha aagalilla",
+      "script": "ಅರ್ಥ ಆಗಲಿಲ್ಲ",
+      "pronunciation": "AR-tha AA-ga-lil-la",
+      "english": "I didn't understand",
+      "category": "polite",
+      "tip": "Literally 'meaning didn't happen'. Add 'nanage' in front for 'I didn't get it'."
+    },
+    {
+      "id": "sk-017",
+      "kannada": "English baratta?",
+      "script": "ಇಂಗ್ಲಿಷ್ ಬರತ್ತಾ?",
+      "pronunciation": "ING-lish ba-rat-taa",
+      "english": "Do you know English?",
+      "category": "polite",
+      "tip": "'Baratta?' = does it come (to you)? Used for languages and skills."
+    },
+    {
+      "id": "sk-018",
+      "kannada": "ondu",
+      "script": "ಒಂದು",
+      "pronunciation": "ON-du",
+      "english": "one (1)",
+      "category": "numbers",
+      "tip": "Also used like 'a/an': 'ondu coffee' = one coffee."
+    },
+    {
+      "id": "sk-019",
+      "kannada": "eradu",
+      "script": "ಎರಡು",
+      "pronunciation": "E-ra-du",
+      "english": "two (2)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-020",
+      "kannada": "mooru",
+      "script": "ಮೂರು",
+      "pronunciation": "MOO-ru",
+      "english": "three (3)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-021",
+      "kannada": "naalku",
+      "script": "ನಾಲ್ಕು",
+      "pronunciation": "NAAL-ku",
+      "english": "four (4)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-022",
+      "kannada": "aidu",
+      "script": "ಐದು",
+      "pronunciation": "AI-du",
+      "english": "five (5)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-023",
+      "kannada": "hattu",
+      "script": "ಹತ್ತು",
+      "pronunciation": "HAT-tu",
+      "english": "ten (10)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-024",
+      "kannada": "ippattu",
+      "script": "ಇಪ್ಪತ್ತು",
+      "pronunciation": "IP-pat-tu",
+      "english": "twenty (20)",
+      "category": "numbers"
+    },
+    {
+      "id": "sk-025",
+      "kannada": "nooru",
+      "script": "ನೂರು",
+      "pronunciation": "NOO-ru",
+      "english": "hundred (100)",
+      "category": "numbers",
+      "tip": "'Ippattu rupayi' = 20 rupees; 'nooru rupayi' = 100 rupees."
+    },
+    {
+      "id": "sk-026",
+      "kannada": "idu eshtu?",
+      "script": "ಇದು ಎಷ್ಟು?",
+      "pronunciation": "i-du ESH-tu",
+      "english": "How much is this?",
+      "category": "money",
+      "tip": "'Eshtu?' = how much/how many. The single most useful shopping word."
+    },
+    {
+      "id": "sk-027",
+      "kannada": "tumba jaasti",
+      "script": "ತುಂಬಾ ಜಾಸ್ತಿ",
+      "pronunciation": "TUM-ba JAAS-ti",
+      "english": "Too much / too expensive",
+      "category": "money",
+      "tip": "'Tumba' = very/a lot. 'Jaasti' = more/excess. Say it with a smile when bargaining."
+    },
+    {
+      "id": "sk-028",
+      "kannada": "swalpa kammi maadi",
+      "script": "ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡಿ",
+      "pronunciation": "SWAL-pa KAM-mi MAA-di",
+      "english": "Please reduce (the price) a little",
+      "category": "money",
+      "tip": "'Kammi' = less. The standard polite bargaining line in markets."
+    },
+    {
+      "id": "sk-029",
+      "kannada": "chillare ide",
+      "script": "ಚಿಲ್ಲರೆ ಇದೆ",
+      "pronunciation": "CHIL-la-re i-de",
+      "english": "I have change (coins/small notes)",
+      "category": "money",
+      "tip": "'Chillare' = small change. Autos and shops love it when you have exact change."
+    },
+    {
+      "id": "sk-030",
+      "kannada": "chillare illa",
+      "script": "ಚಿಲ್ಲರೆ ಇಲ್ಲ",
+      "pronunciation": "CHIL-la-re IL-la",
+      "english": "I don't have change",
+      "category": "money",
+      "tip": "You'll hear this from shopkeepers and autos constantly. Now you understand it!"
+    },
+    {
+      "id": "sk-031",
+      "kannada": "phone pay maadli?",
+      "script": "ಫೋನ್ ಪೇ ಮಾಡ್ಲಿ?",
+      "pronunciation": "phone-pay MAAD-li",
+      "english": "Shall I pay by phone (GPay/UPI)?",
+      "category": "money",
+      "tip": "UPI is everywhere in Bangalore. Most shops and many autos have a QR code (scanner)."
+    },
+    {
+      "id": "sk-032",
+      "kannada": "elli?",
+      "script": "ಎಲ್ಲಿ?",
+      "pronunciation": "EL-li",
+      "english": "Where?",
+      "category": "directions",
+      "tip": "'X elli ide?' = where is X? e.g. 'bus stop elli ide?'."
+    },
+    {
+      "id": "sk-033",
+      "kannada": "balagade",
+      "script": "ಬಲಗಡೆ",
+      "pronunciation": "BA-la-ga-de",
+      "english": "(to the) right",
+      "category": "directions",
+      "tip": "'Bala' = right. Useful when guiding an auto driver."
+    },
+    {
+      "id": "sk-034",
+      "kannada": "edagade",
+      "script": "ಎಡಗಡೆ",
+      "pronunciation": "E-da-ga-de",
+      "english": "(to the) left",
+      "category": "directions",
+      "tip": "'Eda' = left. 'Balagade tirugi' = turn right; 'edagade tirugi' = turn left."
+    },
+    {
+      "id": "sk-035",
+      "kannada": "neravagi hogi",
+      "script": "ನೇರವಾಗಿ ಹೋಗಿ",
+      "pronunciation": "NEH-ra-vaa-gi HO-gi",
+      "english": "Go straight",
+      "category": "directions",
+      "tip": "'Nera' = straight. 'Hogi' = go (polite). 'Munde hogi' also works (go ahead)."
+    },
+    {
+      "id": "sk-036",
+      "kannada": "illi nilisi",
+      "script": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ",
+      "pronunciation": "IL-li ni-LI-si",
+      "english": "Stop here",
+      "category": "directions",
+      "tip": "Tell an auto/cab driver. 'Illi' = here. 'Munde nilisi' = stop a bit ahead."
+    },
+    {
+      "id": "sk-037",
+      "kannada": "eshtu doora?",
+      "script": "ಎಷ್ಟು ದೂರ?",
+      "pronunciation": "ESH-tu DOO-ra",
+      "english": "How far is it?",
+      "category": "directions",
+      "tip": "'Doora' = far/distance. 'Hattira' (ಹತ್ತಿರ) = near."
+    },
+    {
+      "id": "sk-038",
+      "kannada": "eega",
+      "script": "ಈಗ",
+      "pronunciation": "EE-ga",
+      "english": "now",
+      "category": "time",
+      "tip": "'Eega bartini' = I'll come now/right away."
+    },
+    {
+      "id": "sk-039",
+      "kannada": "ivattu / naale",
+      "script": "ಇವತ್ತು / ನಾಳೆ",
+      "pronunciation": "i-VAT-tu / NAA-le",
+      "english": "today / tomorrow",
+      "category": "time",
+      "tip": "'Ivattu' = today, 'naale' = tomorrow, 'ninne' (ನಿನ್ನೆ) = yesterday."
+    },
+    {
+      "id": "sk-040",
+      "kannada": "eshtu gante?",
+      "script": "ಎಷ್ಟು ಗಂಟೆ?",
+      "pronunciation": "ESH-tu GAN-te",
+      "english": "What time is it?",
+      "category": "time",
+      "tip": "'Gante' = hour/o'clock and also bell. 'Eradu gante' = two o'clock."
+    }
+  ]
+}

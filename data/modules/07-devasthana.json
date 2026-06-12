@@ -1,0 +1,267 @@
+{
+  "id": "devasthana",
+  "slug": "07-devasthana",
+  "title": "At the Temple",
+  "kannadaTitle": "ದೇವಸ್ಥಾನ",
+  "emoji": "🛕",
+  "color": "#EA580C",
+  "phase": 3,
+  "lessons": [
+    {
+      "id": "dv-001",
+      "title": "Entering & the Queue",
+      "scene": "You and Radhi reach a temple for evening darshan. At the entrance, an elderly volunteer manages footwear and the queue.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Volunteer",
+          "speakerEmoji": "🧓🏽",
+          "kannada": "Banni, chappali illi bidi. Olage hogi.",
+          "script": "ಬನ್ನಿ, ಚಪ್ಪಲಿ ಇಲ್ಲಿ ಬಿಡಿ. ಒಳಗೆ ಹೋಗಿ.",
+          "pronunciation": "BAN-ni, CHAP-pa-li IL-li BI-di. O-la-ge HO-gi",
+          "english": "Come, leave your slippers here. Go inside."
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask whether you should leave your footwear here",
+          "choices": [
+            {
+              "kannada": "Chappali illi bidbeka?",
+              "script": "ಚಪ್ಪಲಿ ಇಲ್ಲಿ ಬಿಡ್ಬೇಕಾ?",
+              "pronunciation": "CHAP-pa-li IL-li BID-beh-kaa",
+              "english": "Should I leave the slippers here?",
+              "correct": true
+            },
+            {
+              "kannada": "Chappali olage tarbeka?",
+              "script": "ಚಪ್ಪಲಿ ಒಳಗೆ ತರ್ಬೇಕಾ?",
+              "pronunciation": "CHAP-pa-li O-la-ge TAR-beh-kaa",
+              "english": "Should I bring the slippers inside?",
+              "correct": false,
+              "hint": "Footwear is never taken inside a temple. Confirm leaving them here: 'illi bidbeka?'."
+            },
+            {
+              "kannada": "Chappali eshtu?",
+              "script": "ಚಪ್ಪಲಿ ಎಷ್ಟು?",
+              "pronunciation": "CHAP-pa-li ESH-tu",
+              "english": "How much are the slippers?",
+              "correct": false,
+              "hint": "You're not buying slippers! Ask whether to leave them here: 'illi bidbeka?'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Volunteer",
+            "speakerEmoji": "🧓🏽",
+            "kannada": "Houdu, illi bidi. Saalalli nilli.",
+            "script": "ಹೌದು, ಇಲ್ಲಿ ಬಿಡಿ. ಸಾಲಲ್ಲಿ ನಿಲ್ಲಿ.",
+            "pronunciation": "HOW-du, IL-li BI-di. SAA-lal-li NIL-li",
+            "english": "Yes, leave them here. Stand in the queue."
+          },
+          "wrongReaction": {
+            "speaker": "Volunteer",
+            "speakerEmoji": "🧓🏽",
+            "kannada": "Illa illa, chappali olage beda.",
+            "script": "ಇಲ್ಲ ಇಲ್ಲ, ಚಪ್ಪಲಿ ಒಳಗೆ ಬೇಡ.",
+            "pronunciation": "IL-la IL-la, CHAP-pa-li O-la-ge BEH-da",
+            "english": "No no, no slippers inside.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "chappali", "script": "ಚಪ್ಪಲಿ", "pronunciation": "CHAP-pa-li", "english": "slippers / footwear" },
+            { "kannada": "bidi", "script": "ಬಿಡಿ", "pronunciation": "BI-di", "english": "leave / drop (polite)" },
+            { "kannada": "saalu", "script": "ಸಾಲು", "pronunciation": "SAA-lu", "english": "queue / line" },
+            { "kannada": "bidbeka?", "script": "ಬಿಡ್ಬೇಕಾ?", "pronunciation": "BID-beh-kaa", "english": "should (I) leave it?" }
+          ],
+          "grammarTip": "Turn '-beku' (must) into a question with '-aa': 'bidbeku' (must leave) → 'bidbeka?' (should I leave?). It's the polite way to check what you're expected to do — very handy in unfamiliar places."
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask the volunteer what time the darshan (deity viewing) is",
+          "choices": [
+            {
+              "kannada": "Darshana eshtu gante-ge?",
+              "script": "ದರ್ಶನ ಎಷ್ಟು ಗಂಟೆಗೆ?",
+              "pronunciation": "DAR-sha-na ESH-tu GAN-te-ge",
+              "english": "At what time is the darshan?",
+              "correct": true
+            },
+            {
+              "kannada": "Darshana eshtu doora?",
+              "script": "ದರ್ಶನ ಎಷ್ಟು ದೂರ?",
+              "pronunciation": "DAR-sha-na ESH-tu DOO-ra",
+              "english": "How far is the darshan?",
+              "correct": false,
+              "hint": "'Doora' (far) is for distance. For time, ask 'eshtu gante-ge?' (at what o'clock?)."
+            },
+            {
+              "kannada": "Darshana yaaru maadtaare?",
+              "script": "ದರ್ಶನ ಯಾರು ಮಾಡ್ತಾರೆ?",
+              "pronunciation": "DAR-sha-na YAA-ru MAAD-taa-re",
+              "english": "Who does the darshan?",
+              "correct": false,
+              "hint": "You want the timing, not who. Ask 'eshtu gante-ge?' (at what time?)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Volunteer",
+            "speakerEmoji": "🧓🏽",
+            "kannada": "Aidu vare-ge bagilu tegitaare. Swalpa kaayi.",
+            "script": "ಐದೂವರೆಗೆ ಬಾಗಿಲು ತೆಗೀತಾರೆ. ಸ್ವಲ್ಪ ಕಾಯಿ.",
+            "pronunciation": "ai-DOO-va-re-ge BAA-gi-lu te-GEE-taa-re. SWAL-pa KAA-yi",
+            "english": "They open the doors at five-thirty. Wait a little.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Volunteer",
+            "speakerEmoji": "🧓🏽",
+            "kannada": "Time-aa? Aidu vare-ge.",
+            "script": "ಟೈಮಾ? ಐದೂವರೆಗೆ.",
+            "pronunciation": "TI-maa? ai-DOO-va-re-ge",
+            "english": "The time? At five-thirty.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "darshana", "script": "ದರ್ಶನ", "pronunciation": "DAR-sha-na", "english": "darshan (viewing the deity)" },
+            { "kannada": "bagilu", "script": "ಬಾಗಿಲು", "pronunciation": "BAA-gi-lu", "english": "door" },
+            { "kannada": "kaayi / kaayri", "script": "ಕಾಯಿ", "pronunciation": "KAA-yi", "english": "wait (polite: kaayri)" },
+            { "kannada": "vare", "script": "ವರೆ", "pronunciation": "VA-re", "english": "half (in time: 'and a half')" }
+          ],
+          "grammarTip": "Half-past is 'vare': 'aidu-vare' = five-thirty (five and a half). Quarter-past is 'kaalu', quarter-to is 'mukkaalu'. Add '-ge' for 'at': 'aidu-vare-ge' = at five-thirty."
+        }
+      ]
+    },
+    {
+      "id": "dv-002",
+      "title": "Archana & Prasada",
+      "scene": "Inside, you reach the counter where the priest takes names for an archana (a personal offering with your name and star).",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Priest",
+          "speakerEmoji": "🧑🏽‍🦲",
+          "kannada": "Archana maadsobeka? Hesaru, nakshatra heli.",
+          "script": "ಅರ್ಚನೆ ಮಾಡ್ಸೋಬೇಕಾ? ಹೆಸರು, ನಕ್ಷತ್ರ ಹೇಳಿ.",
+          "pronunciation": "AR-cha-ne MAAD-so-beh-kaa? HE-sa-ru, NAK-sha-tra HEH-li",
+          "english": "Do you want to have an archana done? Tell me the name and star (nakshatra)."
+        },
+        {
+          "type": "choice",
+          "prompt": "Say yes, and give your name as Sree",
+          "choices": [
+            {
+              "kannada": "Houdu, hesaru Sree antha.",
+              "script": "ಹೌದು, ಹೆಸರು ಶ್ರೀ ಅಂತ.",
+              "pronunciation": "HOW-du, HE-sa-ru SREE an-tha",
+              "english": "Yes, the name is Sree.",
+              "correct": true
+            },
+            {
+              "kannada": "Beda, hesaru beda.",
+              "script": "ಬೇಡ, ಹೆಸರು ಬೇಡ.",
+              "pronunciation": "BEH-da, HE-sa-ru BEH-da",
+              "english": "No, no name.",
+              "correct": false,
+              "hint": "You came for the archana — that needs your name! Say 'houdu' and give it: 'hesaru Sree antha'."
+            },
+            {
+              "kannada": "Hesaru yaaru?",
+              "script": "ಹೆಸರು ಯಾರು?",
+              "pronunciation": "HE-sa-ru YAA-ru",
+              "english": "Whose name is it? / Who's the name?",
+              "correct": false,
+              "hint": "He's asking YOU for the name. Just give it: 'hesaru Sree antha'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Priest",
+            "speakerEmoji": "🧑🏽‍🦲",
+            "kannada": "Sree... nakshatra gottilla andre parvagilla. Munde banni.",
+            "script": "ಶ್ರೀ... ನಕ್ಷತ್ರ ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ ಪರವಾಗಿಲ್ಲ. ಮುಂದೆ ಬನ್ನಿ.",
+            "pronunciation": "SREE... NAK-sha-tra GOT-til-la an-dre par-VAA-gil-la. MUN-de BAN-ni",
+            "english": "Sree... if you don't know the star, it's fine. Come forward.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Priest",
+            "speakerEmoji": "🧑🏽‍🦲",
+            "kannada": "Nimma hesaru heli amma/saar.",
+            "script": "ನಿಮ್ಮ ಹೆಸರು ಹೇಳಿ ಸಾರ್.",
+            "pronunciation": "NIM-ma HE-sa-ru HEH-li saar",
+            "english": "Tell me your name, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "archana", "script": "ಅರ್ಚನೆ", "pronunciation": "AR-cha-ne", "english": "archana (named offering)" },
+            { "kannada": "hesaru", "script": "ಹೆಸರು", "pronunciation": "HE-sa-ru", "english": "name" },
+            { "kannada": "nakshatra", "script": "ನಕ್ಷತ್ರ", "pronunciation": "NAK-sha-tra", "english": "birth star (nakshatra)" },
+            { "kannada": "gottilla", "script": "ಗೊತ್ತಿಲ್ಲ", "pronunciation": "GOT-til-la", "english": "(I) don't know" }
+          ],
+          "grammarTip": "'Gottilla' = 'I don't know (a fact)'. Different from 'baralla' = 'I can't / don't know how (a skill)'. So 'nakshatra gottilla' (I don't know the star) but 'kannada swalpa baratte' (I know a little Kannada)."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Priest",
+          "speakerEmoji": "🧑🏽‍🦲",
+          "kannada": "Idu teertha, idu prasada. Kai munde maadi.",
+          "script": "ಇದು ತೀರ್ಥ, ಇದು ಪ್ರಸಾದ. ಕೈ ಮುಂದೆ ಮಾಡಿ.",
+          "pronunciation": "i-du TEER-tha, i-du pra-SAA-da. kai MUN-de MAA-di",
+          "english": "This is teertha (holy water), this is prasada. Hold your hand out."
+        },
+        {
+          "type": "choice",
+          "prompt": "Receive it gratefully and thank him",
+          "choices": [
+            {
+              "kannada": "Dhanyavada swami. Tumba olleyadaaytu.",
+              "script": "ಧನ್ಯವಾದ ಸ್ವಾಮಿ. ತುಂಬಾ ಒಳ್ಳೆಯದಾಯ್ತು.",
+              "pronunciation": "DHAN-ya-vaa-da SWAA-mi. TUM-ba OL-le-ya-daay-tu",
+              "english": "Thank you, swami. That was very good (of you).",
+              "correct": true
+            },
+            {
+              "kannada": "Beda swami, prasada beda.",
+              "script": "ಬೇಡ ಸ್ವಾಮಿ, ಪ್ರಸಾದ ಬೇಡ.",
+              "pronunciation": "BEH-da SWAA-mi, pra-SAA-da BEH-da",
+              "english": "No swami, I don't want prasada.",
+              "correct": false,
+              "hint": "Refusing prasada is considered impolite at a temple. Accept it with a 'dhanyavada'."
+            },
+            {
+              "kannada": "Idu eshtu swami?",
+              "script": "ಇದು ಎಷ್ಟು ಸ್ವಾಮಿ?",
+              "pronunciation": "i-du ESH-tu SWAA-mi",
+              "english": "How much is this, swami?",
+              "correct": false,
+              "hint": "Prasada isn't bought — it's received. Simply thank him: 'dhanyavada swami'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Priest",
+            "speakerEmoji": "🧑🏽‍🦲",
+            "kannada": "Devaru olleyadu maadli. Shubhavaagli.",
+            "script": "ದೇವರು ಒಳ್ಳೆಯದು ಮಾಡ್ಲಿ. ಶುಭವಾಗ್ಲಿ.",
+            "pronunciation": "DE-va-ru OL-le-ya-du MAAD-li. shu-bha-VAAG-li",
+            "english": "May God do good (for you). May it be auspicious.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Priest",
+            "speakerEmoji": "🧑🏽‍🦲",
+            "kannada": "Prasada togoli, devara aashirvada.",
+            "script": "ಪ್ರಸಾದ ತೊಗೊಳಿ, ದೇವರ ಆಶೀರ್ವಾದ.",
+            "pronunciation": "pra-SAA-da to-GO-li, DE-va-ra aa-SHEER-vaa-da",
+            "english": "Take the prasada, it's God's blessing.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "teertha", "script": "ತೀರ್ಥ", "pronunciation": "TEER-tha", "english": "holy water" },
+            { "kannada": "prasada", "script": "ಪ್ರಸಾದ", "pronunciation": "pra-SAA-da", "english": "blessed food offering" },
+            { "kannada": "swami", "script": "ಸ್ವಾಮಿ", "pronunciation": "SWAA-mi", "english": "respectful address for a priest" },
+            { "kannada": "shubhavaagli", "script": "ಶುಭವಾಗ್ಲಿ", "pronunciation": "shu-bha-VAAG-li", "english": "may it be auspicious" }
+          ],
+          "grammarTip": "Blessings use the gentle '-li' ending: 'aagli' (let it be), 'maadli' (may they do), 'shubhavaagli' (may it be auspicious). Receiving prasada with both hands and a 'dhanyavada' is the warm, respectful response."
+        }
+      ]
+    }
+  ]
+}

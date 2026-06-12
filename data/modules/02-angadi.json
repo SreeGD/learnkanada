@@ -1,0 +1,274 @@
+{
+  "id": "angadi",
+  "slug": "02-angadi",
+  "title": "At the Corner Shop",
+  "kannadaTitle": "ಅಂಗಡಿ",
+  "emoji": "🏪",
+  "color": "#16A34A",
+  "phase": 1,
+  "lessons": [
+    {
+      "id": "ag-001",
+      "title": "Buying the Basics",
+      "scene": "You walk to the kirana (provision) shop downstairs for some essentials. The shopkeeper, Murthy, is stacking biscuit packets behind the counter.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Murthy",
+          "speakerEmoji": "🧔🏽",
+          "kannada": "Banni saar, enu beku?",
+          "script": "ಬನ್ನಿ ಸಾರ್, ಏನು ಬೇಕು?",
+          "pronunciation": "BAN-ni saar, EH-nu BEH-ku",
+          "english": "Come sir, what do you need?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask for one kilo of rice and a packet of milk",
+          "choices": [
+            {
+              "kannada": "Ondu kilo akki mattu ondu paaket haalu kodi.",
+              "script": "ಒಂದು ಕಿಲೋ ಅಕ್ಕಿ ಮತ್ತು ಒಂದು ಪಾಕೆಟ್ ಹಾಲು ಕೊಡಿ.",
+              "pronunciation": "ON-du KI-lo AK-ki mat-tu ON-du paa-ket HAA-lu KO-di",
+              "english": "Give one kilo of rice and one packet of milk.",
+              "correct": true
+            },
+            {
+              "kannada": "Ondu kilo haalu mattu paaket akki kodi.",
+              "script": "ಒಂದು ಕಿಲೋ ಹಾಲು ಮತ್ತು ಪಾಕೆಟ್ ಅಕ್ಕಿ ಕೊಡಿ.",
+              "pronunciation": "ON-du KI-lo HAA-lu mat-tu paa-ket AK-ki KO-di",
+              "english": "Give one kilo of milk and a packet of rice.",
+              "correct": false,
+              "hint": "You swapped them! Rice (akki) comes by the kilo, milk (haalu) by the packet."
+            },
+            {
+              "kannada": "Akki beda, haalu beda.",
+              "script": "ಅಕ್ಕಿ ಬೇಡ, ಹಾಲು ಬೇಡ.",
+              "pronunciation": "AK-ki BEH-da, HAA-lu BEH-da",
+              "english": "No rice, no milk.",
+              "correct": false,
+              "hint": "'Beda' refuses both items. To ask for something use 'kodi' (give) or just name it with the quantity."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Aytu saar. Inn enaadru?",
+            "script": "ಆಯ್ತು ಸಾರ್. ಇನ್ನೇನಾದ್ರೂ?",
+            "pronunciation": "AAY-tu saar. in-NE-naad-ruu",
+            "english": "Done sir. Anything else?"
+          },
+          "wrongReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Akki eshtu beku saar, haalu eshtu?",
+            "script": "ಅಕ್ಕಿ ಎಷ್ಟು ಬೇಕು ಸಾರ್, ಹಾಲು ಎಷ್ಟು?",
+            "pronunciation": "AK-ki ESH-tu BEH-ku saar, HAA-lu ESH-tu",
+            "english": "How much rice do you need sir, how much milk?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "akki", "script": "ಅಕ್ಕಿ", "pronunciation": "AK-ki", "english": "rice (uncooked)" },
+            { "kannada": "haalu", "script": "ಹಾಲು", "pronunciation": "HAA-lu", "english": "milk" },
+            { "kannada": "kodi", "script": "ಕೊಡಿ", "pronunciation": "KO-di", "english": "give (polite)" },
+            { "kannada": "kilo", "script": "ಕಿಲೋ", "pronunciation": "KI-lo", "english": "kilogram" }
+          ],
+          "grammarTip": "Order of words is flexible in Kannada, but the verb usually comes last: '[quantity] [item] kodi'. 'Kodi' (give) politely requests; you can also just name what you want and the shopkeeper understands."
+        },
+        {
+          "type": "choice",
+          "prompt": "Add: you also want half a litre of cooking oil",
+          "choices": [
+            {
+              "kannada": "Ardha litre enne kooda kodi.",
+              "script": "ಅರ್ಧ ಲೀಟರ್ ಎಣ್ಣೆ ಕೂಡ ಕೊಡಿ.",
+              "pronunciation": "AR-dha LEE-tar EN-ne KOO-da KO-di",
+              "english": "Give half a litre of oil too.",
+              "correct": true
+            },
+            {
+              "kannada": "Ardha kilo neeru kodi.",
+              "script": "ಅರ್ಧ ಕಿಲೋ ನೀರು ಕೊಡಿ.",
+              "pronunciation": "AR-dha KI-lo NEE-ru KO-di",
+              "english": "Give half a kilo of water.",
+              "correct": false,
+              "hint": "'Neeru' is water, not oil. Oil is 'enne', and liquids go by 'litre'."
+            },
+            {
+              "kannada": "Enne beda, parvagilla.",
+              "script": "ಎಣ್ಣೆ ಬೇಡ, ಪರವಾಗಿಲ್ಲ.",
+              "pronunciation": "EN-ne BEH-da, par-VAA-gil-la",
+              "english": "No oil, it's fine.",
+              "correct": false,
+              "hint": "That declines the oil. Use 'kooda' (also) to add it: 'enne kooda kodi'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Sari saar. Ottu nooru aippattu rupayi aytu.",
+            "script": "ಸರಿ ಸಾರ್. ಒಟ್ಟು ನೂರ ಐವತ್ತು ರೂಪಾಯಿ ಆಯ್ತು.",
+            "pronunciation": "SA-ri saar. OT-tu NOO-ra AI-vat-tu ru-PAA-yi AAY-tu",
+            "english": "Okay sir. The total comes to one hundred fifty rupees."
+          },
+          "wrongReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Enne beko beda, helli saar.",
+            "script": "ಎಣ್ಣೆ ಬೇಕೋ ಬೇಡ, ಹೇಳಿ ಸಾರ್.",
+            "pronunciation": "EN-ne BEH-ko BEH-da, HEL-li saar",
+            "english": "Do you want oil or not, tell me sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "ardha", "script": "ಅರ್ಧ", "pronunciation": "AR-dha", "english": "half" },
+            { "kannada": "enne", "script": "ಎಣ್ಣೆ", "pronunciation": "EN-ne", "english": "oil" },
+            { "kannada": "neeru", "script": "ನೀರು", "pronunciation": "NEE-ru", "english": "water" },
+            { "kannada": "kooda", "script": "ಕೂಡ", "pronunciation": "KOO-da", "english": "also / too" },
+            { "kannada": "ottu", "script": "ಒಟ್ಟು", "pronunciation": "OT-tu", "english": "total / altogether" }
+          ],
+          "grammarTip": "'Kooda' = 'also/too' and goes right after the thing you're adding: 'enne kooda' = oil also. Note 'nooru aippattu' (150) — Kannada builds numbers as hundred + fifty, said together."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Sari, phone pay maadtini.",
+          "script": "ಸರಿ, ಫೋನ್ ಪೇ ಮಾಡ್ತೀನಿ.",
+          "pronunciation": "SA-ri, phone-pay MAAD-tee-ni",
+          "english": "Okay, I'll pay by phone (UPI)."
+        }
+      ]
+    },
+    {
+      "id": "ag-002",
+      "title": "Is it Available? Getting Change",
+      "scene": "Next evening you return for eggs and bread. It's busy and Murthy is dealing with another customer. You wait, then ask.",
+      "steps": [
+        {
+          "type": "choice",
+          "prompt": "Ask whether eggs are available",
+          "choices": [
+            {
+              "kannada": "Motte ide-ya?",
+              "script": "ಮೊಟ್ಟೆ ಇದೆಯಾ?",
+              "pronunciation": "MOT-te i-de-ya",
+              "english": "Are eggs available?",
+              "correct": true
+            },
+            {
+              "kannada": "Motte elli hogtide?",
+              "script": "ಮೊಟ್ಟೆ ಎಲ್ಲಿ ಹೋಗ್ತಿದೆ?",
+              "pronunciation": "MOT-te EL-li HOG-ti-de",
+              "english": "Where are the eggs going?",
+              "correct": false,
+              "hint": "That asks where eggs are 'going'. To ask if something is in stock, use 'ide-ya?' (is it there?)."
+            },
+            {
+              "kannada": "Motte beda-ya?",
+              "script": "ಮೊಟ್ಟೆ ಬೇಡವಾ?",
+              "pronunciation": "MOT-te BEH-da-va",
+              "english": "Don't you want eggs?",
+              "correct": false,
+              "hint": "That's asking him if HE wants eggs. To check availability: 'motte ide-ya?'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Ide saar. Eshtu beku?",
+            "script": "ಇದೆ ಸಾರ್. ಎಷ್ಟು ಬೇಕು?",
+            "pronunciation": "i-de saar. ESH-tu BEH-ku",
+            "english": "Yes, available sir. How many do you need?"
+          },
+          "wrongReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Motte beko saar? Ide.",
+            "script": "ಮೊಟ್ಟೆ ಬೇಕೋ ಸಾರ್? ಇದೆ.",
+            "pronunciation": "MOT-te BEH-ko saar? i-de",
+            "english": "Do you want eggs sir? We have them.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "motte", "script": "ಮೊಟ್ಟೆ", "pronunciation": "MOT-te", "english": "egg(s)" },
+            { "kannada": "ide", "script": "ಇದೆ", "pronunciation": "i-de", "english": "it is (there) / available" },
+            { "kannada": "ide-ya?", "script": "ಇದೆಯಾ?", "pronunciation": "i-de-ya", "english": "is it there? / available?" },
+            { "kannada": "eshtu", "script": "ಎಷ್ಟು", "pronunciation": "ESH-tu", "english": "how much / how many" }
+          ],
+          "grammarTip": "Add '-aa/-ya' to the end of a statement to turn it into a yes/no question: 'ide' (it is there) → 'ide-ya?' (is it there?). The answer is 'ide' (yes, there is) or 'illa' (no, there isn't)."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Aaru motte mattu ondu bread kodi.",
+          "script": "ಆರು ಮೊಟ್ಟೆ ಮತ್ತು ಒಂದು ಬ್ರೆಡ್ ಕೊಡಿ.",
+          "pronunciation": "AA-ru MOT-te mat-tu ON-du bread KO-di",
+          "english": "Give six eggs and one bread."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Murthy",
+          "speakerEmoji": "🧔🏽",
+          "kannada": "Embattu rupayi saar. Chillare illa, irutta?",
+          "script": "ಎಂಬತ್ತು ರೂಪಾಯಿ ಸಾರ್. ಚಿಲ್ಲರೆ ಇಲ್ಲ, ಇರುತ್ತಾ?",
+          "pronunciation": "EM-bat-tu ru-PAA-yi saar. CHIL-la-re IL-la, i-rut-ta",
+          "english": "Eighty rupees sir. I have no change, do you have it?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell him you have exact change and will give it",
+          "choices": [
+            {
+              "kannada": "Chillare ide, illi kotti bidtini.",
+              "script": "ಚಿಲ್ಲರೆ ಇದೆ, ಇಲ್ಲಿ ಕೊಟ್ಟು ಬಿಡ್ತೀನಿ.",
+              "pronunciation": "CHIL-la-re i-de, IL-li KOT-tu BID-tee-ni",
+              "english": "I have change, I'll give it right here.",
+              "correct": true
+            },
+            {
+              "kannada": "Chillare illa, irli.",
+              "script": "ಚಿಲ್ಲರೆ ಇಲ್ಲ, ಇರ್ಲಿ.",
+              "pronunciation": "CHIL-la-re IL-la, IR-li",
+              "english": "I have no change, leave it.",
+              "correct": false,
+              "hint": "He asked if YOU have change and you said no. To say you do have it: 'chillare ide'."
+            },
+            {
+              "kannada": "Naanu nimage chillare kodtina?",
+              "script": "ನಾನು ನಿಮಗೆ ಚಿಲ್ಲರೆ ಕೊಡ್ತೀನಾ?",
+              "pronunciation": "NAA-nu ni-ma-ge CHIL-la-re KOD-tee-naa",
+              "english": "Shall I give YOU some change?",
+              "correct": false,
+              "hint": "Close, but mixes it up. Simply confirm 'chillare ide' (I have change) and pay."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Tumba olleyadu saar. Dhanyavada, banni!",
+            "script": "ತುಂಬಾ ಒಳ್ಳೆಯದು ಸಾರ್. ಧನ್ಯವಾದ, ಬನ್ನಿ!",
+            "pronunciation": "TUM-ba OL-le-ya-du saar. DHAN-ya-vaa-da, BAN-ni",
+            "english": "Very good sir. Thank you, do come again!"
+          },
+          "wrongReaction": {
+            "speaker": "Murthy",
+            "speakerEmoji": "🧔🏽",
+            "kannada": "Haagadre nooru kodi, naanu huduktini.",
+            "script": "ಹಾಗಾದ್ರೆ ನೂರು ಕೊಡಿ, ನಾನು ಹುಡುಕ್ತೀನಿ.",
+            "pronunciation": "HAA-gaad-re NOO-ru KO-di, NAA-nu hu-DUK-tee-ni",
+            "english": "Then give a hundred, I'll find change.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "chillare", "script": "ಚಿಲ್ಲರೆ", "pronunciation": "CHIL-la-re", "english": "small change / coins" },
+            { "kannada": "rupayi", "script": "ರೂಪಾಯಿ", "pronunciation": "ru-PAA-yi", "english": "rupee(s)" },
+            { "kannada": "embattu", "script": "ಎಂಬತ್ತು", "pronunciation": "EM-bat-tu", "english": "eighty (80)" },
+            { "kannada": "kotti bidtini", "script": "ಕೊಟ್ಟು ಬಿಡ್ತೀನಿ", "pronunciation": "KOT-tu BID-tee-ni", "english": "I'll just give it (and be done)" }
+          ],
+          "grammarTip": "Kannadigas often add 'bidu' (to leave/let) after a verb to mean 'just do it / finish it off': 'kotti bidtini' = I'll just hand it over. It makes the action sound easy and complete."
+        }
+      ]
+    }
+  ]
+}

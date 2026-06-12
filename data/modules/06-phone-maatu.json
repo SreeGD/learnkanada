@@ -1,0 +1,268 @@
+{
+  "id": "phone-maatu",
+  "slug": "06-phone-maatu",
+  "title": "Phone Conversations",
+  "kannadaTitle": "ಫೋನ್ ಮಾತು",
+  "emoji": "📞",
+  "color": "#0891B2",
+  "phase": 3,
+  "lessons": [
+    {
+      "id": "ph-001",
+      "title": "Answering & Wrong Numbers",
+      "scene": "Your phone rings. It's an unknown number. You answer, and a stranger is asking for someone named Ramesh.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Caller",
+          "speakerEmoji": "📱",
+          "kannada": "Hello, Ramesh idaara?",
+          "script": "ಹಲೋ, ರಮೇಶ್ ಇದಾರಾ?",
+          "pronunciation": "ha-lo, ra-MESH i-DAA-raa",
+          "english": "Hello, is Ramesh there?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell them there's no Ramesh here — wrong number",
+          "choices": [
+            {
+              "kannada": "Illi Ramesh antha yaaru illa. Wrong number.",
+              "script": "ಇಲ್ಲಿ ರಮೇಶ್ ಅಂತ ಯಾರೂ ಇಲ್ಲ. ರಾಂಗ್ ನಂಬರ್.",
+              "pronunciation": "IL-li ra-MESH an-tha YAA-ruu IL-la. raang NAM-bar",
+              "english": "There's no one called Ramesh here. Wrong number.",
+              "correct": true
+            },
+            {
+              "kannada": "Houdu, naane Ramesh.",
+              "script": "ಹೌದು, ನಾನೇ ರಮೇಶ್.",
+              "pronunciation": "HOW-du, NAA-ne ra-MESH",
+              "english": "Yes, I am Ramesh.",
+              "correct": false,
+              "hint": "You're not Ramesh! Politely tell them no one by that name is here: 'Ramesh antha yaaru illa'."
+            },
+            {
+              "kannada": "Ramesh-ge enu beku?",
+              "script": "ರಮೇಶ್‌ಗೆ ಏನು ಬೇಕು?",
+              "pronunciation": "ra-MESH-ge EH-nu BEH-ku",
+              "english": "What does Ramesh need?",
+              "correct": false,
+              "hint": "That implies Ramesh is you/here. Since he isn't, say 'yaaru illa' (no one) — it's a wrong number."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Caller",
+            "speakerEmoji": "📱",
+            "kannada": "Oh, sorry saar. Tappi number haakide.",
+            "script": "ಓ, ಸಾರಿ ಸಾರ್. ತಪ್ಪಿ ನಂಬರ್ ಹಾಕಿದೆ.",
+            "pronunciation": "oh, SAA-ri saar. TAP-pi NAM-bar HAA-ki-de",
+            "english": "Oh, sorry sir. I dialled the wrong number.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Caller",
+            "speakerEmoji": "📱",
+            "kannada": "Ramesh, naanu bank-inda maatadtidini...",
+            "script": "ರಮೇಶ್, ನಾನು ಬ್ಯಾಂಕ್‌ನಿಂದ ಮಾತಾಡ್ತಿದೀನಿ...",
+            "pronunciation": "ra-MESH, NAA-nu byaank-in-da MAA-taad-ti-dee-ni",
+            "english": "Ramesh, I'm calling from the bank...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "idaara?", "script": "ಇದಾರಾ?", "pronunciation": "i-DAA-raa", "english": "is (he/she) there? (polite)" },
+            { "kannada": "yaaru illa", "script": "ಯಾರೂ ಇಲ್ಲ", "pronunciation": "YAA-ruu IL-la", "english": "no one is here" },
+            { "kannada": "tappi", "script": "ತಪ್ಪಿ", "pronunciation": "TAP-pi", "english": "by mistake / wrongly" },
+            { "kannada": "antha", "script": "ಅಂತ", "pronunciation": "AN-tha", "english": "called / named / that" }
+          ],
+          "grammarTip": "'Antha' (or 'anta') marks names and quotes — 'Ramesh antha yaaru illa' = 'no one called Ramesh'. 'Idaara?' is the polite 'is he/she there?' On the phone, people answer with the English 'hello'."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Parvagilla, aagatte. Iti.",
+          "script": "ಪರವಾಗಿಲ್ಲ, ಆಗುತ್ತೆ. ಇಡ್ತೀನಿ.",
+          "pronunciation": "par-VAA-gil-la, AA-gut-te. ID-tee-ni",
+          "english": "No problem, it happens. I'll hang up."
+        }
+      ]
+    },
+    {
+      "id": "ph-002",
+      "title": "Giving Directions to Your Home",
+      "scene": "A delivery agent calls — he's near your area in HSR Layout but can't find your apartment. He needs you to guide him to the gate over the phone.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Delivery Agent",
+          "speakerEmoji": "🛵",
+          "kannada": "Saar, naanu delivery. Nimma area-ge bandidini, address sigtilla.",
+          "script": "ಸಾರ್, ನಾನು ಡೆಲಿವರಿ. ನಿಮ್ಮ ಏರಿಯಾಗೆ ಬಂದಿದೀನಿ, ಅಡ್ರೆಸ್ ಸಿಗ್ತಿಲ್ಲ.",
+          "pronunciation": "saar, NAA-nu de-LI-va-ri. NIM-ma EH-ri-yaa-ge ban-di-DEE-ni, AD-res SIG-til-la",
+          "english": "Sir, I'm the delivery (agent). I've come to your area but can't find the address."
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask him where exactly he is right now",
+          "choices": [
+            {
+              "kannada": "Neevu eega elli iddira?",
+              "script": "ನೀವು ಈಗ ಎಲ್ಲಿ ಇದ್ದೀರಾ?",
+              "pronunciation": "NEE-vu EE-ga EL-li id-DEE-ra",
+              "english": "Where are you right now?",
+              "correct": true
+            },
+            {
+              "kannada": "Neevu yaaru iddira?",
+              "script": "ನೀವು ಯಾರು ಇದ್ದೀರಾ?",
+              "pronunciation": "NEE-vu YAA-ru id-DEE-ra",
+              "english": "Who are you?",
+              "correct": false,
+              "hint": "You know who he is. To locate him, ask WHERE: 'elli iddira?' (where are you?)."
+            },
+            {
+              "kannada": "Neevu yaavaga bandira?",
+              "script": "ನೀವು ಯಾವಾಗ ಬಂದಿರಾ?",
+              "pronunciation": "NEE-vu YAA-vaa-ga ban-DEE-ra",
+              "english": "When did you come?",
+              "correct": false,
+              "hint": "'Yaavaga' (when) won't help you guide him. Ask 'elli iddira?' — where is he now."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Naanu medical shop hattira iddini saar.",
+            "script": "ನಾನು ಮೆಡಿಕಲ್ ಶಾಪ್ ಹತ್ತಿರ ಇದ್ದೀನಿ ಸಾರ್.",
+            "pronunciation": "NAA-nu ME-di-kal shaap HAT-ti-ra id-DEE-ni saar",
+            "english": "I'm near the medical (pharmacy) shop, sir.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Saar, naanu delivery agent antha helde alva!",
+            "script": "ಸಾರ್, ನಾನು ಡೆಲಿವರಿ ಏಜೆಂಟ್ ಅಂತ ಹೇಳ್ದೆ ಅಲ್ವಾ!",
+            "pronunciation": "saar, NAA-nu de-LI-va-ri agent an-tha HEL-de al-va",
+            "english": "Sir, I told you I'm the delivery agent, right!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "neevu", "script": "ನೀವು", "pronunciation": "NEE-vu", "english": "you (polite)" },
+            { "kannada": "eega", "script": "ಈಗ", "pronunciation": "EE-ga", "english": "now" },
+            { "kannada": "iddira?", "script": "ಇದ್ದೀರಾ?", "pronunciation": "id-DEE-ra", "english": "are you (there)? (polite)" },
+            { "kannada": "sigtilla", "script": "ಸಿಗ್ತಿಲ್ಲ", "pronunciation": "SIG-til-la", "english": "(I) can't find it / it isn't found" }
+          ],
+          "grammarTip": "'Iddira?' is the polite 'are you?' for asking someone's state or location; pair it with 'elli' (where): 'elli iddira?'. Note 'sigtilla' = 'isn't found / I can't find it' — a super common way to say something's missing."
+        },
+        {
+          "type": "choice",
+          "prompt": "Guide him: from the medical shop, go straight and take the second right",
+          "choices": [
+            {
+              "kannada": "Alli inda nera banni, eradane balagade tirugi.",
+              "script": "ಅಲ್ಲಿಂದ ನೇರ ಬನ್ನಿ, ಎರಡನೇ ಬಲಗಡೆ ತಿರುಗಿ.",
+              "pronunciation": "AL-lin-da NE-ra BAN-ni, e-RA-da-ne BA-la-ga-de ti-RU-gi",
+              "english": "From there come straight, take the second right.",
+              "correct": true
+            },
+            {
+              "kannada": "Alli-ne iri, naanu bartini.",
+              "script": "ಅಲ್ಲೇ ಇರಿ, ನಾನು ಬರ್ತೀನಿ.",
+              "pronunciation": "al-LE i-ri, NAA-nu BAR-tee-ni",
+              "english": "Stay right there, I'll come.",
+              "correct": false,
+              "hint": "Fine in a pinch, but you were asked to guide him in. Direct him: 'nera banni, eradane balagade tirugi'."
+            },
+            {
+              "kannada": "Nera hogi, modlane edagade tirugi.",
+              "script": "ನೇರ ಹೋಗಿ, ಮೊದಲನೇ ಎಡಗಡೆ ತಿರುಗಿ.",
+              "pronunciation": "NE-ra HO-gi, MOD-la-ne E-da-ga-de ti-RU-gi",
+              "english": "Go straight, take the first left.",
+              "correct": false,
+              "hint": "Wrong turn — that's the FIRST LEFT. You wanted the SECOND RIGHT: 'eradane balagade'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Eradane balagade, sari. Aamele?",
+            "script": "ಎರಡನೇ ಬಲಗಡೆ, ಸರಿ. ಆಮೇಲೆ?",
+            "pronunciation": "e-RA-da-ne BA-la-ga-de, SA-ri. aa-ME-le",
+            "english": "Second right, okay. Then?",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Edagado balagado saar, sariyaagi heli.",
+            "script": "ಎಡಗಡೋ ಬಲಗಡೋ ಸಾರ್, ಸರಿಯಾಗಿ ಹೇಳಿ.",
+            "pronunciation": "E-da-ga-do BA-la-ga-do saar, sa-ri-YAA-gi HEH-li",
+            "english": "Left or right sir, tell me correctly.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "alli inda", "script": "ಅಲ್ಲಿಂದ", "pronunciation": "AL-lin-da", "english": "from there" },
+            { "kannada": "nera", "script": "ನೇರ", "pronunciation": "NE-ra", "english": "straight" },
+            { "kannada": "eradane", "script": "ಎರಡನೇ", "pronunciation": "e-RA-da-ne", "english": "second" },
+            { "kannada": "modalane", "script": "ಮೊದಲನೇ", "pronunciation": "MOD-la-ne", "english": "first" }
+          ],
+          "grammarTip": "'-inda' = 'from': 'alli-inda' (from there), 'mane-inda' (from home). Ordinals add '-ane': 'eradane' (second), 'mooru-ne' (third). Chain them for directions: 'eradane balagade' = the second right."
+        },
+        {
+          "type": "choice",
+          "prompt": "Finish: it's the blue building, our gate is on the left. Wait there.",
+          "choices": [
+            {
+              "kannada": "Adu blue building, namma gate edagade ide. Alli nilli.",
+              "script": "ಅದು ಬ್ಲೂ ಬಿಲ್ಡಿಂಗ್, ನಮ್ಮ ಗೇಟ್ ಎಡಗಡೆ ಇದೆ. ಅಲ್ಲಿ ನಿಲ್ಲಿ.",
+              "pronunciation": "a-du bloo BIL-ding, NAM-ma gate E-da-ga-de i-de. AL-li NIL-li",
+              "english": "It's the blue building, our gate is on the left. Wait there.",
+              "correct": true
+            },
+            {
+              "kannada": "Adu blue building, gate beda. Hogi.",
+              "script": "ಅದು ಬ್ಲೂ ಬಿಲ್ಡಿಂಗ್, ಗೇಟ್ ಬೇಡ. ಹೋಗಿ.",
+              "pronunciation": "a-du bloo BIL-ding, gate BEH-da. HO-gi",
+              "english": "It's the blue building, no gate. Go away.",
+              "correct": false,
+              "hint": "'Gate beda' and 'hogi' (go) send him off! Tell him where the gate is and to wait: 'gate edagade ide, alli nilli'."
+            },
+            {
+              "kannada": "Namma gate balagade ide, bega hogi.",
+              "script": "ನಮ್ಮ ಗೇಟ್ ಬಲಗಡೆ ಇದೆ, ಬೇಗ ಹೋಗಿ.",
+              "pronunciation": "NAM-ma gate BA-la-ga-de i-de, BEH-ga HO-gi",
+              "english": "Our gate is on the right, go quickly.",
+              "correct": false,
+              "hint": "Wrong side, and 'hogi' tells him to leave. Say the gate is on the left and to wait: 'edagade ide, alli nilli'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Sigtu saar! Blue building, gate kanstide. Bartini.",
+            "script": "ಸಿಕ್ತು ಸಾರ್! ಬ್ಲೂ ಬಿಲ್ಡಿಂಗ್, ಗೇಟ್ ಕಾಣ್ಸ್ತಿದೆ. ಬರ್ತೀನಿ.",
+            "pronunciation": "SIK-tu saar! bloo BIL-ding, gate KAANS-ti-de. BAR-tee-ni",
+            "english": "Found it sir! Blue building, I can see the gate. I'm coming.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Delivery Agent",
+            "speakerEmoji": "🛵",
+            "kannada": "Saar, gate elli antha sariyaagi heli please.",
+            "script": "ಸಾರ್, ಗೇಟ್ ಎಲ್ಲಿ ಅಂತ ಸರಿಯಾಗಿ ಹೇಳಿ ಪ್ಲೀಸ್.",
+            "pronunciation": "saar, gate EL-li an-tha sa-ri-YAA-gi HEH-li pleez",
+            "english": "Sir, please tell me properly where the gate is.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "adu", "script": "ಅದು", "pronunciation": "a-du", "english": "that / it" },
+            { "kannada": "namma", "script": "ನಮ್ಮ", "pronunciation": "NAM-ma", "english": "our" },
+            { "kannada": "alli nilli", "script": "ಅಲ್ಲಿ ನಿಲ್ಲಿ", "pronunciation": "AL-li NIL-li", "english": "wait / stand there" },
+            { "kannada": "sigtu", "script": "ಸಿಕ್ತು", "pronunciation": "SIK-tu", "english": "(I) found it / got it" }
+          ],
+          "grammarTip": "Possessives: 'namma' (our), 'nanna' (my), 'nimma' (your). 'Illi' = here, 'alli' = there — 'alli nilli' tells someone to wait at a far point. And 'sigtu!' (found it!) is the happy phrase you'll hear when directions finally land."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "bus-railway",
+  "slug": "04-bus-railway",
+  "title": "Bus & Railway Station",
+  "kannadaTitle": "ಬಸ್ ಮತ್ತು ರೈಲು",
+  "emoji": "🚌",
+  "color": "#2563EB",
+  "phase": 2,
+  "lessons": [
+    {
+      "id": "br-001",
+      "title": "At the Bus Stop",
+      "scene": "You're at a crowded BMTC bus stop in Majestic. You need to reach Whitefield but aren't sure which bus to take. An older man waits beside you.",
+      "steps": [
+        {
+          "type": "choice",
+          "prompt": "Ask the man which bus goes to Whitefield",
+          "choices": [
+            {
+              "kannada": "Whitefield-ge yaava bus hogutte?",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್‌ಗೆ ಯಾವ ಬಸ್ ಹೋಗುತ್ತೆ?",
+              "pronunciation": "white-field-ge YAA-va bus ho-GUT-te",
+              "english": "Which bus goes to Whitefield?",
+              "correct": true
+            },
+            {
+              "kannada": "Whitefield eshtu hogutte?",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್ ಎಷ್ಟು ಹೋಗುತ್ತೆ?",
+              "pronunciation": "white-field ESH-tu ho-GUT-te",
+              "english": "How much does Whitefield go?",
+              "correct": false,
+              "hint": "'Eshtu' (how much) doesn't fit here. To ask 'which bus', use 'yaava bus'."
+            },
+            {
+              "kannada": "Whitefield yaaru?",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್ ಯಾರು?",
+              "pronunciation": "white-field YAA-ru",
+              "english": "Who is Whitefield?",
+              "correct": false,
+              "hint": "'Yaaru' = who (for people). For 'which (thing)' use 'yaava': 'yaava bus'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Old Man",
+            "speakerEmoji": "👴🏽",
+            "kannada": "Three thirty five bus hogutte. Alli nilteyalli nilli.",
+            "script": "ಥ್ರೀ ಥರ್ಟಿ ಫೈವ್ ಬಸ್ ಹೋಗುತ್ತೆ. ಅಲ್ಲಿ ನಿಲ್ದಾಣದಲ್ಲಿ ನಿಲ್ಲಿ.",
+            "pronunciation": "three-thirty-five bus ho-GUT-te. AL-li nil-DAA-na-dal-li NIL-li",
+            "english": "The 335 bus goes there. Wait at that stop over there."
+          },
+          "wrongReaction": {
+            "speaker": "Old Man",
+            "speakerEmoji": "👴🏽",
+            "kannada": "Yaava jaaga beku antha heli.",
+            "script": "ಯಾವ ಜಾಗ ಬೇಕು ಅಂತ ಹೇಳಿ.",
+            "pronunciation": "YAA-va JAA-ga BEH-ku an-tha HEH-li",
+            "english": "Tell me which place you want.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "yaava", "script": "ಯಾವ", "pronunciation": "YAA-va", "english": "which" },
+            { "kannada": "bus", "script": "ಬಸ್", "pronunciation": "bus", "english": "bus" },
+            { "kannada": "hogutte", "script": "ಹೋಗುತ್ತೆ", "pronunciation": "ho-GUT-te", "english": "(it) goes" },
+            { "kannada": "nildaana", "script": "ನಿಲ್ದಾಣ", "pronunciation": "nil-DAA-na", "english": "stop / station" }
+          ],
+          "grammarTip": "Question words: 'yaava' = which, 'yaaru' = who, 'enu' = what, 'elli' = where, 'eshtu' = how much/many. Pick the right one — using 'eshtu' (how much) when you mean 'yaava' (which) is a common beginner slip."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Conductor",
+          "speakerEmoji": "👮🏽",
+          "kannada": "Ticket, ticket! Yaaru ticket togondilla?",
+          "script": "ಟಿಕೆಟ್, ಟಿಕೆಟ್! ಯಾರು ಟಿಕೆಟ್ ತೊಗೊಂಡಿಲ್ಲ?",
+          "pronunciation": "TI-ket, TI-ket! YAA-ru TI-ket to-gon-DIL-la",
+          "english": "Tickets, tickets! Who hasn't taken a ticket?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask for one ticket to Whitefield",
+          "choices": [
+            {
+              "kannada": "Whitefield ondu ticket kodi.",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್ ಒಂದು ಟಿಕೆಟ್ ಕೊಡಿ.",
+              "pronunciation": "white-field ON-du TI-ket KO-di",
+              "english": "Give one ticket to Whitefield.",
+              "correct": true
+            },
+            {
+              "kannada": "Whitefield ticket beda.",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್ ಟಿಕೆಟ್ ಬೇಡ.",
+              "pronunciation": "white-field TI-ket BEH-da",
+              "english": "No ticket to Whitefield.",
+              "correct": false,
+              "hint": "Riding without a ticket gets you fined! Ask for one: 'ondu ticket kodi'."
+            },
+            {
+              "kannada": "Whitefield ticket eshtu jana?",
+              "script": "ವೈಟ್‌ಫೀಲ್ಡ್ ಟಿಕೆಟ್ ಎಷ್ಟು ಜನ?",
+              "pronunciation": "white-field TI-ket ESH-tu JA-na",
+              "english": "Whitefield ticket, how many people?",
+              "correct": false,
+              "hint": "That's his question to ask, not yours. Just say how many: 'ondu ticket' (one ticket)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Conductor",
+            "speakerEmoji": "👮🏽",
+            "kannada": "Nalvattu rupayi. Chillare kodi saar.",
+            "script": "ನಲವತ್ತು ರೂಪಾಯಿ. ಚಿಲ್ಲರೆ ಕೊಡಿ ಸಾರ್.",
+            "pronunciation": "na-LA-vat-tu ru-PAA-yi. CHIL-la-re KO-di saar",
+            "english": "Forty rupees. Please give change, sir."
+          },
+          "wrongReaction": {
+            "speaker": "Conductor",
+            "speakerEmoji": "👮🏽",
+            "kannada": "Ticket illdiddre fine haaktini saar!",
+            "script": "ಟಿಕೆಟ್ ಇಲ್ದಿದ್ರೆ ಫೈನ್ ಹಾಕ್ತೀನಿ ಸಾರ್!",
+            "pronunciation": "TI-ket il-did-dre fine HAAK-tee-ni saar",
+            "english": "If there's no ticket I'll fine you, sir!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "ticket", "script": "ಟಿಕೆಟ್", "pronunciation": "TI-ket", "english": "ticket" },
+            { "kannada": "nalvattu", "script": "ನಲವತ್ತು", "pronunciation": "na-LA-vat-tu", "english": "forty (40)" },
+            { "kannada": "jana", "script": "ಜನ", "pronunciation": "JA-na", "english": "people / persons" },
+            { "kannada": "togondilla", "script": "ತೊಗೊಂಡಿಲ್ಲ", "pronunciation": "to-gon-DIL-la", "english": "hasn't taken" }
+          ],
+          "grammarTip": "To say how many people, put the number before 'jana': 'ondu jana' / 'eradu jana' (one / two people). For tickets you can simply say the number + 'ticket': 'eradu ticket' = two tickets."
+        }
+      ]
+    },
+    {
+      "id": "br-002",
+      "title": "At the Railway Station",
+      "scene": "You're at Bengaluru City (Majestic) railway station to travel to Mysuru. You walk up to the ticket counter.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Clerk",
+          "speakerEmoji": "🧑🏽‍💼",
+          "kannada": "Helli, elli-ge ticket?",
+          "script": "ಹೇಳಿ, ಎಲ್ಲಿಗೆ ಟಿಕೆಟ್?",
+          "pronunciation": "HEL-li, EL-li-ge TI-ket",
+          "english": "Tell me, ticket to where?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask for two tickets to Mysuru",
+          "choices": [
+            {
+              "kannada": "Mysuru-ge eradu ticket kodi.",
+              "script": "ಮೈಸೂರಿಗೆ ಎರಡು ಟಿಕೆಟ್ ಕೊಡಿ.",
+              "pronunciation": "mai-SOO-ri-ge E-ra-du TI-ket KO-di",
+              "english": "Give two tickets to Mysuru.",
+              "correct": true
+            },
+            {
+              "kannada": "Mysuru eradu gante kodi.",
+              "script": "ಮೈಸೂರು ಎರಡು ಗಂಟೆ ಕೊಡಿ.",
+              "pronunciation": "mai-SOO-ru E-ra-du GAN-te KO-di",
+              "english": "Give two o'clock Mysuru.",
+              "correct": false,
+              "hint": "'Gante' is o'clock, not ticket! Say 'eradu ticket' and the destination with '-ge'."
+            },
+            {
+              "kannada": "Mysuru-ge hogbeda.",
+              "script": "ಮೈಸೂರಿಗೆ ಹೋಗ್ಬೇಡ.",
+              "pronunciation": "mai-SOO-ri-ge HOG-beh-da",
+              "english": "Don't go to Mysuru.",
+              "correct": false,
+              "hint": "'-beda' makes it a 'don't'! For tickets, ask: 'eradu ticket kodi'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Clerk",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Munoor ippattu rupayi. Train nalku gante-ge.",
+            "script": "ಮುನ್ನೂರ ಇಪ್ಪತ್ತು ರೂಪಾಯಿ. ಟ್ರೈನ್ ನಾಲ್ಕು ಗಂಟೆಗೆ.",
+            "pronunciation": "mun-NOO-ra IP-pat-tu ru-PAA-yi. train NAAL-ku GAN-te-ge",
+            "english": "Three hundred twenty rupees. The train is at four o'clock."
+          },
+          "wrongReaction": {
+            "speaker": "Clerk",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Eshtu ticket beku saar, sariyaagi heli.",
+            "script": "ಎಷ್ಟು ಟಿಕೆಟ್ ಬೇಕು ಸಾರ್, ಸರಿಯಾಗಿ ಹೇಳಿ.",
+            "pronunciation": "ESH-tu TI-ket BEH-ku saar, sa-ri-YAA-gi HEH-li",
+            "english": "How many tickets do you need sir, tell me properly.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "elli-ge", "script": "ಎಲ್ಲಿಗೆ", "pronunciation": "EL-li-ge", "english": "to where" },
+            { "kannada": "eradu", "script": "ಎರಡು", "pronunciation": "E-ra-du", "english": "two (2)" },
+            { "kannada": "train", "script": "ಟ್ರೈನ್", "pronunciation": "train", "english": "train (also 'railu')" },
+            { "kannada": "nalku gante", "script": "ನಾಲ್ಕು ಗಂಟೆ", "pronunciation": "NAAL-ku GAN-te", "english": "four o'clock" }
+          ],
+          "grammarTip": "'-ge' on a place means 'to': 'Mysuru-ge' = to Mysuru, 'elli-ge' = to where. Note how some place names change shape for '-ge': Mysuru → Mysuru-ge / Mysuri-ge — both are heard."
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask which platform the train comes to",
+          "choices": [
+            {
+              "kannada": "Train yaava platform-ge barutte?",
+              "script": "ಟ್ರೈನ್ ಯಾವ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗೆ ಬರುತ್ತೆ?",
+              "pronunciation": "train YAA-va PLAAT-faarm-ge ba-RUT-te",
+              "english": "Which platform does the train come to?",
+              "correct": true
+            },
+            {
+              "kannada": "Train eshtu platform ide?",
+              "script": "ಟ್ರೈನ್ ಎಷ್ಟು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಇದೆ?",
+              "pronunciation": "train ESH-tu PLAAT-faarm i-de",
+              "english": "How many platforms does the train have?",
+              "correct": false,
+              "hint": "You want WHICH platform, not how many. Use 'yaava platform-ge barutte?'."
+            },
+            {
+              "kannada": "Platform yaavaga barutte?",
+              "script": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಯಾವಾಗ ಬರುತ್ತೆ?",
+              "pronunciation": "PLAAT-faarm YAA-vaa-ga ba-RUT-te",
+              "english": "When does the platform come?",
+              "correct": false,
+              "hint": "'Yaavaga' = when (about time). For which platform, use 'yaava platform'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Clerk",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Mooru-ne platform saar. Muncheye hogi nilli.",
+            "script": "ಮೂರನೇ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಾರ್. ಮುಂಚೆಯೇ ಹೋಗಿ ನಿಲ್ಲಿ.",
+            "pronunciation": "MOO-ru-ne PLAAT-faarm saar. MUN-che-ye HO-gi NIL-li",
+            "english": "Platform number three, sir. Go and wait there early.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Clerk",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Mooru-ne platform saar.",
+            "script": "ಮೂರನೇ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಾರ್.",
+            "pronunciation": "MOO-ru-ne PLAAT-faarm saar",
+            "english": "Platform number three, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "platform", "script": "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್", "pronunciation": "PLAAT-faarm", "english": "platform" },
+            { "kannada": "barutte", "script": "ಬರುತ್ತೆ", "pronunciation": "ba-RUT-te", "english": "(it) comes" },
+            { "kannada": "yaavaga", "script": "ಯಾವಾಗ", "pronunciation": "YAA-vaa-ga", "english": "when" },
+            { "kannada": "mooru-ne", "script": "ಮೂರನೇ", "pronunciation": "MOO-ru-ne", "english": "third / number three" }
+          ],
+          "grammarTip": "Add '-ne' to a number for the ordinal: 'mooru' (three) → 'mooru-ne' (third), 'ondu' → 'ondane' (first). 'Yaavaga' (when) vs 'yaava' (which) sound alike — 'yaavaga' has the extra 'ga' for time."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "shopping",
+  "slug": "05-shopping",
+  "title": "Market & Shopping",
+  "kannadaTitle": "ಶಾಪಿಂಗ್",
+  "emoji": "🛍️",
+  "color": "#9333EA",
+  "phase": 2,
+  "lessons": [
+    {
+      "id": "sh-001",
+      "title": "Bargaining at the Vegetable Market",
+      "scene": "Saturday morning at the Gandhi Bazaar vegetable market. A vendor sits behind heaps of tomatoes, beans and greens. You want tomatoes.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Vendor",
+          "speakerEmoji": "👩🏾‍🌾",
+          "kannada": "Banni amma, fresh tomato ide! Enu beku?",
+          "script": "ಬನ್ನಿ ಅಮ್ಮ, ಫ್ರೆಶ್ ಟೊಮ್ಯಾಟೋ ಇದೆ! ಏನು ಬೇಕು?",
+          "pronunciation": "BAN-ni am-ma, fresh to-MYAA-to i-de! EH-nu BEH-ku",
+          "english": "Come madam, fresh tomatoes! What do you need?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask how much the tomatoes are per kilo",
+          "choices": [
+            {
+              "kannada": "Tomato kilo eshtu?",
+              "script": "ಟೊಮ್ಯಾಟೋ ಕಿಲೋ ಎಷ್ಟು?",
+              "pronunciation": "to-MYAA-to KI-lo ESH-tu",
+              "english": "How much is a kilo of tomatoes?",
+              "correct": true
+            },
+            {
+              "kannada": "Tomato elli ide?",
+              "script": "ಟೊಮ್ಯಾಟೋ ಎಲ್ಲಿ ಇದೆ?",
+              "pronunciation": "to-MYAA-to EL-li i-de",
+              "english": "Where are the tomatoes?",
+              "correct": false,
+              "hint": "They're right in front of you! To ask the price, use 'eshtu' (how much): 'kilo eshtu?'."
+            },
+            {
+              "kannada": "Tomato yaava kilo?",
+              "script": "ಟೊಮ್ಯಾಟೋ ಯಾವ ಕಿಲೋ?",
+              "pronunciation": "to-MYAA-to YAA-va KI-lo",
+              "english": "Which kilo of tomatoes?",
+              "correct": false,
+              "hint": "'Yaava' (which) doesn't fit. For price ask 'kilo eshtu?' (how much per kilo?)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Vendor",
+            "speakerEmoji": "👩🏾‍🌾",
+            "kannada": "Nalvattu rupayi kilo amma.",
+            "script": "ನಲವತ್ತು ರೂಪಾಯಿ ಕಿಲೋ ಅಮ್ಮ.",
+            "pronunciation": "na-LA-vat-tu ru-PAA-yi KI-lo am-ma",
+            "english": "Forty rupees a kilo, madam."
+          },
+          "wrongReaction": {
+            "speaker": "Vendor",
+            "speakerEmoji": "👩🏾‍🌾",
+            "kannada": "Illene amma, nim munde ne ide!",
+            "script": "ಇಲ್ಲೇನೆ ಅಮ್ಮ, ನಿಮ್ ಮುಂದೇನೆ ಇದೆ!",
+            "pronunciation": "il-LE-ne am-ma, nim MUN-de-ne i-de",
+            "english": "Right here madam, it's in front of you!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "kilo eshtu?", "script": "ಕಿಲೋ ಎಷ್ಟು?", "pronunciation": "KI-lo ESH-tu", "english": "how much per kilo?" },
+            { "kannada": "fresh", "script": "ಫ್ರೆಶ್", "pronunciation": "fresh", "english": "fresh (English loanword, widely used)" },
+            { "kannada": "rupayi", "script": "ರೂಪಾಯಿ", "pronunciation": "ru-PAA-yi", "english": "rupee(s)" },
+            { "kannada": "nalvattu", "script": "ನಲವತ್ತು", "pronunciation": "na-LA-vat-tu", "english": "forty (40)" }
+          ],
+          "grammarTip": "For prices, the pattern is simply '[item] [unit] eshtu?' — 'tomato kilo eshtu?'. Kannada drops 'is/are' and the word 'per'; context carries the meaning. Short and natural."
+        },
+        {
+          "type": "choice",
+          "prompt": "Forty seems high — bargain politely to reduce the price",
+          "choices": [
+            {
+              "kannada": "Tumba jaasti! Muvattu maadi.",
+              "script": "ತುಂಬಾ ಜಾಸ್ತಿ! ಮೂವತ್ತು ಮಾಡಿ.",
+              "pronunciation": "TUM-ba JAAS-ti! MOO-vat-tu MAA-di",
+              "english": "Too expensive! Make it thirty.",
+              "correct": true
+            },
+            {
+              "kannada": "Innu jaasti kodi, parvagilla.",
+              "script": "ಇನ್ನೂ ಜಾಸ್ತಿ ಕೊಡಿ, ಪರವಾಗಿಲ್ಲ.",
+              "pronunciation": "in-nu JAAS-ti KO-di, par-VAA-gil-la",
+              "english": "Charge even more, it's fine.",
+              "correct": false,
+              "hint": "That asks for a higher price! To bargain down, say 'kammi maadi' (make it less) or name a lower number."
+            },
+            {
+              "kannada": "Nalvattu sariyaagi ide, kodi.",
+              "script": "ನಲವತ್ತು ಸರಿಯಾಗಿ ಇದೆ, ಕೊಡಿ.",
+              "pronunciation": "na-LA-vat-tu sa-ri-YAA-gi i-de, KO-di",
+              "english": "Forty is just right, give it.",
+              "correct": false,
+              "hint": "That accepts the full price — no bargaining! Push back with 'tumba jaasti, kammi maadi'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Vendor",
+            "speakerEmoji": "👩🏾‍🌾",
+            "kannada": "Muvattu aagalla amma, muvattaidu kodi.",
+            "script": "ಮೂವತ್ತು ಆಗಲ್ಲ ಅಮ್ಮ, ಮೂವತ್ತೈದು ಕೊಡಿ.",
+            "pronunciation": "MOO-vat-tu AA-gal-la am-ma, moo-vat-TAI-du KO-di",
+            "english": "Thirty won't work madam, give thirty-five."
+          },
+          "wrongReaction": {
+            "speaker": "Vendor",
+            "speakerEmoji": "👩🏾‍🌾",
+            "kannada": "Aaytamma, eshtu kilo haakli?",
+            "script": "ಆಯ್ತಮ್ಮ, ಎಷ್ಟು ಕಿಲೋ ಹಾಕ್ಲಿ?",
+            "pronunciation": "AAY-tam-ma, ESH-tu KI-lo HAAK-li",
+            "english": "Okay madam, how many kilos shall I put?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "jaasti", "script": "ಜಾಸ್ತಿ", "pronunciation": "JAAS-ti", "english": "more / too much" },
+            { "kannada": "kammi maadi", "script": "ಕಮ್ಮಿ ಮಾಡಿ", "pronunciation": "KAM-mi MAA-di", "english": "make it less (reduce)" },
+            { "kannada": "muvattu", "script": "ಮೂವತ್ತು", "pronunciation": "MOO-vat-tu", "english": "thirty (30)" },
+            { "kannada": "aagalla", "script": "ಆಗಲ್ಲ", "pronunciation": "AA-gal-la", "english": "won't happen / not possible" }
+          ],
+          "grammarTip": "Bargaining is expected and friendly. '[number] maadi' = 'make it [number]'. The vendor's 'aagalla' (won't work) is your cue to settle in the middle — here, thirty-five. Keep it light and smiling."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Sari, ondu kilo kodi. Phone pay maadli?",
+          "script": "ಸರಿ, ಒಂದು ಕಿಲೋ ಕೊಡಿ. ಫೋನ್ ಪೇ ಮಾಡ್ಲಿ?",
+          "pronunciation": "SA-ri, ON-du KI-lo KO-di. phone-pay MAAD-li",
+          "english": "Okay, give one kilo. Shall I pay by phone?"
+        }
+      ]
+    },
+    {
+      "id": "sh-002",
+      "title": "At the Clothes Shop",
+      "scene": "You're at a clothes shop on Commercial Street looking for a cotton kurta. A salesperson approaches.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Salesperson",
+          "speakerEmoji": "🧑🏽‍💼",
+          "kannada": "Banni saar, enu torsali?",
+          "script": "ಬನ್ನಿ ಸಾರ್, ಏನು ತೋರ್ಸಲಿ?",
+          "pronunciation": "BAN-ni saar, EH-nu TOR-sa-li",
+          "english": "Come sir, what shall I show you?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask him to show you a cotton kurta",
+          "choices": [
+            {
+              "kannada": "Cotton kurta torsi.",
+              "script": "ಕಾಟನ್ ಕುರ್ತಾ ತೋರ್ಸಿ.",
+              "pronunciation": "KAA-tan KUR-taa TOR-si",
+              "english": "Show me a cotton kurta.",
+              "correct": true
+            },
+            {
+              "kannada": "Cotton kurta beda.",
+              "script": "ಕಾಟನ್ ಕುರ್ತಾ ಬೇಡ.",
+              "pronunciation": "KAA-tan KUR-taa BEH-da",
+              "english": "I don't want a cotton kurta.",
+              "correct": false,
+              "hint": "That refuses it! To ask to see it, use 'torsi' (show me)."
+            },
+            {
+              "kannada": "Cotton kurta elli hogtide?",
+              "script": "ಕಾಟನ್ ಕುರ್ತಾ ಎಲ್ಲಿ ಹೋಗ್ತಿದೆ?",
+              "pronunciation": "KAA-tan KUR-taa EL-li HOG-ti-de",
+              "english": "Where is the cotton kurta going?",
+              "correct": false,
+              "hint": "Odd phrasing. Simply say 'torsi' (show me) the cotton kurta."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Salesperson",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Idu nodi saar. Yaava size beku?",
+            "script": "ಇದು ನೋಡಿ ಸಾರ್. ಯಾವ ಸೈಜ್ ಬೇಕು?",
+            "pronunciation": "i-du NO-di saar. YAA-va size BEH-ku",
+            "english": "Look at this one, sir. Which size do you want?"
+          },
+          "wrongReaction": {
+            "speaker": "Salesperson",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Mattenu torsali saar?",
+            "script": "ಮತ್ತೇನು ತೋರ್ಸಲಿ ಸಾರ್?",
+            "pronunciation": "mat-TE-nu TOR-sa-li saar",
+            "english": "What else shall I show you, sir?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "torsi", "script": "ತೋರ್ಸಿ", "pronunciation": "TOR-si", "english": "show me (polite)" },
+            { "kannada": "nodi", "script": "ನೋಡಿ", "pronunciation": "NO-di", "english": "look / see (polite)" },
+            { "kannada": "size", "script": "ಸೈಜ್", "pronunciation": "size", "english": "size (English loanword)" },
+            { "kannada": "bere", "script": "ಬೇರೆ", "pronunciation": "BEH-re", "english": "different / another" }
+          ],
+          "grammarTip": "'-ali/-li' on a verb asks 'shall I...?': 'torsu' (show) → 'torsali?' (shall I show?). The shopkeeper uses it constantly. You reply with the polite command form ending in '-i': 'torsi' (show me)."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell him you want medium size, and ask the price",
+          "choices": [
+            {
+              "kannada": "Medium beku. Idu eshtu?",
+              "script": "ಮೀಡಿಯಂ ಬೇಕು. ಇದು ಎಷ್ಟು?",
+              "pronunciation": "MEE-di-yam BEH-ku. i-du ESH-tu",
+              "english": "I want medium. How much is this?",
+              "correct": true
+            },
+            {
+              "kannada": "Medium beda. Idu eshtu doora?",
+              "script": "ಮೀಡಿಯಂ ಬೇಡ. ಇದು ಎಷ್ಟು ದೂರ?",
+              "pronunciation": "MEE-di-yam BEH-da. i-du ESH-tu DOO-ra",
+              "english": "Not medium. How far is this?",
+              "correct": false,
+              "hint": "'Eshtu doora' asks distance, not price. For price just say 'idu eshtu?'; and you DO want medium, so 'beku'."
+            },
+            {
+              "kannada": "Large beku. Idu yaaru?",
+              "script": "ಲಾರ್ಜ್ ಬೇಕು. ಇದು ಯಾರು?",
+              "pronunciation": "laarj BEH-ku. i-du YAA-ru",
+              "english": "I want large. Who is this?",
+              "correct": false,
+              "hint": "Wrong size, and 'yaaru' (who) is for people. Ask 'idu eshtu?' for the price."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Salesperson",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Aydu-noor rupayi saar. Olleya quality.",
+            "script": "ಐದ್ನೂರ ರೂಪಾಯಿ ಸಾರ್. ಒಳ್ಳೆಯ ಕ್ವಾಲಿಟಿ.",
+            "pronunciation": "AYD-noo-ra ru-PAA-yi saar. OL-le-ya KWAA-li-ti",
+            "english": "Five hundred rupees sir. Good quality.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Salesperson",
+            "speakerEmoji": "🧑🏽‍💼",
+            "kannada": "Size yaavdu, bele beko saar?",
+            "script": "ಸೈಜ್ ಯಾವ್ದು, ಬೆಲೆ ಬೇಕೋ ಸಾರ್?",
+            "pronunciation": "size YAAV-du, BE-le BEH-ko saar",
+            "english": "Which size, do you want the price, sir?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "idu eshtu?", "script": "ಇದು ಎಷ್ಟು?", "pronunciation": "i-du ESH-tu", "english": "how much is this?" },
+            { "kannada": "bele", "script": "ಬೆಲೆ", "pronunciation": "BE-le", "english": "price / cost" },
+            { "kannada": "olleya", "script": "ಒಳ್ಳೆಯ", "pronunciation": "OL-le-ya", "english": "good (describing a thing)" },
+            { "kannada": "aydunooru", "script": "ಐದ್ನೂರು", "pronunciation": "AYD-noo-ru", "english": "five hundred (500)" }
+          ],
+          "grammarTip": "'Idu' = this, 'adu' = that. 'Idu eshtu?' (how much is this?) is your everyday price question for any single item you're pointing at. Add 'bele' (price) for emphasis: 'idara bele eshtu?' = what's its price?"
+        }
+      ]
+    }
+  ]
+}

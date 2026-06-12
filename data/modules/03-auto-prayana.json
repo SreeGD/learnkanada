@@ -1,0 +1,276 @@
+{
+  "id": "auto-prayana",
+  "slug": "03-auto-prayana",
+  "title": "Auto Rickshaw Ride",
+  "kannadaTitle": "ಆಟೋ ಪ್ರಯಾಣ",
+  "emoji": "🛺",
+  "color": "#CA8A04",
+  "phase": 2,
+  "lessons": [
+    {
+      "id": "ap-001",
+      "title": "Hailing an Auto & the Meter",
+      "scene": "You're standing on the roadside in Jayanagar. An empty auto slows down beside you. The driver leans out.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Auto Driver",
+          "speakerEmoji": "🧑🏾",
+          "kannada": "Elli hogbeku saar?",
+          "script": "ಎಲ್ಲಿ ಹೋಗ್ಬೇಕು ಸಾರ್?",
+          "pronunciation": "EL-li HOG-beh-ku saar",
+          "english": "Where do you want to go, sir?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell him you want to go to Lalbagh, and to use the meter",
+          "choices": [
+            {
+              "kannada": "Lalbagh-ge hogbeku. Meter haaki.",
+              "script": "ಲಾಲ್‌ಬಾಗ್‌ಗೆ ಹೋಗ್ಬೇಕು. ಮೀಟರ್ ಹಾಕಿ.",
+              "pronunciation": "laal-baag-ge HOG-beh-ku. MEE-tar HAA-ki",
+              "english": "I need to go to Lalbagh. Put the meter on.",
+              "correct": true
+            },
+            {
+              "kannada": "Lalbagh-ge hogbeku. Meter beda.",
+              "script": "ಲಾಲ್‌ಬಾಗ್‌ಗೆ ಹೋಗ್ಬೇಕು. ಮೀಟರ್ ಬೇಡ.",
+              "pronunciation": "laal-baag-ge HOG-beh-ku. MEE-tar BEH-da",
+              "english": "I need to go to Lalbagh. No meter.",
+              "correct": false,
+              "hint": "Saying 'meter beda' invites a fixed (often inflated) price. Insist on 'meter haaki' (put the meter)."
+            },
+            {
+              "kannada": "Lalbagh elli ide?",
+              "script": "ಲಾಲ್‌ಬಾಗ್ ಎಲ್ಲಿ ಇದೆ?",
+              "pronunciation": "laal-baag EL-li i-de",
+              "english": "Where is Lalbagh?",
+              "correct": false,
+              "hint": "You're asking HIM for directions! State your destination with '-ge' (to): 'Lalbagh-ge'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Meter-ge bartira? Sari, kuteer saar.",
+            "script": "ಮೀಟರ್‌ಗೆ ಬರ್ತೀರಾ? ಸರಿ, ಕೂತ್ಕೊಳ್ಳಿ ಸಾರ್.",
+            "pronunciation": "MEE-tar-ge BAR-tee-ra? SA-ri, KOOT-kol-li saar",
+            "english": "You'll come by meter? Okay, sit, sir."
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Lalbagh-aa? Nooru rupayi saar.",
+            "script": "ಲಾಲ್‌ಬಾಗಾ? ನೂರು ರೂಪಾಯಿ ಸಾರ್.",
+            "pronunciation": "laal-baag-aa? NOO-ru ru-PAA-yi saar",
+            "english": "Lalbagh? A hundred rupees, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "hogbeku", "script": "ಹೋಗ್ಬೇಕು", "pronunciation": "HOG-beh-ku", "english": "(I) have to go" },
+            { "kannada": "meter haaki", "script": "ಮೀಟರ್ ಹಾಕಿ", "pronunciation": "MEE-tar HAA-ki", "english": "put the meter on" },
+            { "kannada": "kutkolli", "script": "ಕೂತ್ಕೊಳ್ಳಿ", "pronunciation": "KOOT-kol-li", "english": "please sit / get in" },
+            { "kannada": "-ge", "script": "-ಗೆ", "pronunciation": "ge", "english": "to (a place)" }
+          ],
+          "grammarTip": "'-beku' attached to a verb means 'must / have to': 'hogu' (go) → 'hogbeku' (have to go). Combine with the destination + '-ge': 'Lalbagh-ge hogbeku' = (I) have to go to Lalbagh."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Auto Driver",
+          "speakerEmoji": "🧑🏾",
+          "kannada": "Saar, ee time traffic jaasti. Swalpa late aagbahudu.",
+          "script": "ಸಾರ್, ಈ ಟೈಮ್ ಟ್ರಾಫಿಕ್ ಜಾಸ್ತಿ. ಸ್ವಲ್ಪ ಲೇಟ್ ಆಗ್ಬಹುದು.",
+          "pronunciation": "saar, ee time TRAA-phik JAAS-ti. SWAL-pa late AAG-ba-hu-du",
+          "english": "Sir, traffic is heavy this time. It might get a bit late."
+        },
+        {
+          "type": "choice",
+          "prompt": "Say it's okay, you're not in a hurry",
+          "choices": [
+            {
+              "kannada": "Parvagilla, nange avasara illa.",
+              "script": "ಪರವಾಗಿಲ್ಲ, ನಂಗೆ ಅವಸರ ಇಲ್ಲ.",
+              "pronunciation": "par-VAA-gil-la, nan-ge a-va-SA-ra IL-la",
+              "english": "It's fine, I'm not in a hurry.",
+              "correct": true
+            },
+            {
+              "kannada": "Bega bega! Nange tumba avasara!",
+              "script": "ಬೇಗ ಬೇಗ! ನಂಗೆ ತುಂಬಾ ಅವಸರ!",
+              "pronunciation": "BEH-ga BEH-ga! nan-ge TUM-ba a-va-SA-ra",
+              "english": "Fast, fast! I'm in a big hurry!",
+              "correct": false,
+              "hint": "He can't beat traffic, and rushing him won't help. A calm 'parvagilla' keeps the ride pleasant."
+            },
+            {
+              "kannada": "Haagadre naanu illi iliyutini.",
+              "script": "ಹಾಗಾದ್ರೆ ನಾನು ಇಲ್ಲಿ ಇಳಿಯುತ್ತೀನಿ.",
+              "pronunciation": "HAA-gaad-re NAA-nu IL-li i-LI-yu-tee-ni",
+              "english": "In that case I'll get off here.",
+              "correct": false,
+              "hint": "No need to abandon the ride over a little traffic! Just reassure him: 'avasara illa'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Olleyadu saar. Hogona.",
+            "script": "ಒಳ್ಳೆಯದು ಸಾರ್. ಹೋಗೋಣ.",
+            "pronunciation": "OL-le-ya-du saar. ho-GO-na",
+            "english": "Good sir. Let's go.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Traffic-alli enu maadakke aagalla saar.",
+            "script": "ಟ್ರಾಫಿಕ್‌ನಲ್ಲಿ ಏನು ಮಾಡಕ್ಕೆ ಆಗಲ್ಲ ಸಾರ್.",
+            "pronunciation": "TRAA-phik-al-li EH-nu MAA-dak-ke AA-gal-la saar",
+            "english": "Nothing can be done in traffic, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "avasara", "script": "ಅವಸರ", "pronunciation": "a-va-SA-ra", "english": "hurry / urgency" },
+            { "kannada": "bega", "script": "ಬೇಗ", "pronunciation": "BEH-ga", "english": "fast / quickly / soon" },
+            { "kannada": "late aagbahudu", "script": "ಲೇಟ್ ಆಗ್ಬಹುದು", "pronunciation": "late AAG-ba-hu-du", "english": "it might be late" },
+            { "kannada": "hogona", "script": "ಹೋಗೋಣ", "pronunciation": "ho-GO-na", "english": "let's go" }
+          ],
+          "grammarTip": "'-bahudu' means 'may / might': 'aagu' (happen) → 'aagbahudu' (it may happen). And '-ona' makes a friendly 'let's...': 'hogona' (let's go), 'tinnona' (let's eat)."
+        }
+      ]
+    },
+    {
+      "id": "ap-002",
+      "title": "Directing the Route & Paying",
+      "scene": "You're nearly there. The driver needs to know exactly where to turn and stop near the Lalbagh west gate.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Auto Driver",
+          "speakerEmoji": "🧑🏾",
+          "kannada": "Saar, munde elli? Nera hogli?",
+          "script": "ಸಾರ್, ಮುಂದೆ ಎಲ್ಲಿ? ನೇರ ಹೋಗ್ಲಿ?",
+          "pronunciation": "saar, MUN-de EL-li? NE-ra HOG-li",
+          "english": "Sir, where ahead? Shall I go straight?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell him to go straight and then turn left at the signal",
+          "choices": [
+            {
+              "kannada": "Nera hogi, signal-alli edagade tirugi.",
+              "script": "ನೇರ ಹೋಗಿ, ಸಿಗ್ನಲ್‌ನಲ್ಲಿ ಎಡಗಡೆ ತಿರುಗಿ.",
+              "pronunciation": "NE-ra HO-gi, SIG-nal-al-li E-da-ga-de ti-RU-gi",
+              "english": "Go straight, turn left at the signal.",
+              "correct": true
+            },
+            {
+              "kannada": "Illi nilisi, signal beda.",
+              "script": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ, ಸಿಗ್ನಲ್ ಬೇಡ.",
+              "pronunciation": "IL-li ni-LI-si, SIG-nal BEH-da",
+              "english": "Stop here, no signal.",
+              "correct": false,
+              "hint": "You're not there yet — stopping now strands you. Guide him: 'nera hogi' then 'edagade tirugi'."
+            },
+            {
+              "kannada": "Signal-alli balagade tirugi.",
+              "script": "ಸಿಗ್ನಲ್‌ನಲ್ಲಿ ಬಲಗಡೆ ತಿರುಗಿ.",
+              "pronunciation": "SIG-nal-al-li BA-la-ga-de ti-RU-gi",
+              "english": "Turn right at the signal.",
+              "correct": false,
+              "hint": "That's the wrong way — 'balagade' is right. You want 'edagade' (left)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Sari saar, edagade tirugtini.",
+            "script": "ಸರಿ ಸಾರ್, ಎಡಗಡೆ ತಿರುಗ್ತೀನಿ.",
+            "pronunciation": "SA-ri saar, E-da-ga-de ti-RUG-tee-ni",
+            "english": "Okay sir, I'll turn left.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Edagado balagado saar? Confuse aaytu.",
+            "script": "ಎಡಗಡೋ ಬಲಗಡೋ ಸಾರ್? ಕನ್ಫ್ಯೂಸ್ ಆಯ್ತು.",
+            "pronunciation": "E-da-ga-do BA-la-ga-do saar? kan-fyooz AAY-tu",
+            "english": "Left or right sir? I got confused.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "munde", "script": "ಮುಂದೆ", "pronunciation": "MUN-de", "english": "ahead / in front / next" },
+            { "kannada": "tirugi", "script": "ತಿರುಗಿ", "pronunciation": "ti-RU-gi", "english": "turn (polite)" },
+            { "kannada": "edagade", "script": "ಎಡಗಡೆ", "pronunciation": "E-da-ga-de", "english": "left side" },
+            { "kannada": "balagade", "script": "ಬಲಗಡೆ", "pronunciation": "BA-la-ga-de", "english": "right side" },
+            { "kannada": "signal", "script": "ಸಿಗ್ನಲ್", "pronunciation": "SIG-nal", "english": "traffic signal" }
+          ],
+          "grammarTip": "'-alli' means 'at / in': 'signal-alli' = at the signal, 'mane-alli' = at home. It attaches straight onto the place word and is one of the most useful endings for directions."
+        },
+        {
+          "type": "choice",
+          "prompt": "The gate is just ahead — ask him to stop there",
+          "choices": [
+            {
+              "kannada": "Aa gate hattira nilisi saar.",
+              "script": "ಆ ಗೇಟ್ ಹತ್ತಿರ ನಿಲ್ಲಿಸಿ ಸಾರ್.",
+              "pronunciation": "aa gate HAT-ti-ra ni-LI-si saar",
+              "english": "Stop near that gate, sir.",
+              "correct": true
+            },
+            {
+              "kannada": "Innu munde hogi, doora ide.",
+              "script": "ಇನ್ನೂ ಮುಂದೆ ಹೋಗಿ, ದೂರ ಇದೆ.",
+              "pronunciation": "in-nu MUN-de HO-gi, DOO-ra i-de",
+              "english": "Go further ahead, it's far.",
+              "correct": false,
+              "hint": "But the gate is right here! Tell him to stop near it: 'gate hattira nilisi'."
+            },
+            {
+              "kannada": "Gate beda, hogtaa irona.",
+              "script": "ಗೇಟ್ ಬೇಡ, ಹೋಗ್ತಾ ಇರೋಣ.",
+              "pronunciation": "gate BEH-da, HOG-taa i-RO-na",
+              "english": "No gate, let's keep going.",
+              "correct": false,
+              "hint": "That sails right past your stop. Use 'nilisi' (stop) at the gate."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Aytu saar. Meter-alli embattu rupayi.",
+            "script": "ಆಯ್ತು ಸಾರ್. ಮೀಟರ್‌ನಲ್ಲಿ ಎಂಬತ್ತು ರೂಪಾಯಿ.",
+            "pronunciation": "AAY-tu saar. MEE-tar-al-li EM-bat-tu ru-PAA-yi",
+            "english": "Done sir. It's eighty rupees on the meter."
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Elli nilisli antha heli saar.",
+            "script": "ಎಲ್ಲಿ ನಿಲ್ಲಿಸ್ಲಿ ಅಂತ ಹೇಳಿ ಸಾರ್.",
+            "pronunciation": "EL-li ni-LIS-li an-tha HEH-li saar",
+            "english": "Tell me where to stop, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "hattira", "script": "ಹತ್ತಿರ", "pronunciation": "HAT-ti-ra", "english": "near / close to" },
+            { "kannada": "nilisi", "script": "ನಿಲ್ಲಿಸಿ", "pronunciation": "ni-LI-si", "english": "stop / halt (polite)" },
+            { "kannada": "aa", "script": "ಆ", "pronunciation": "aa", "english": "that (over there)" },
+            { "kannada": "doora", "script": "ದೂರ", "pronunciation": "DOO-ra", "english": "far / distance" }
+          ],
+          "grammarTip": "'Ee' = this (near), 'aa' = that (far): 'ee gate' (this gate) vs 'aa gate' (that gate). Pointing words like these make directions crystal clear to a driver."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Ido togoli, chillare ide. Dhanyavada saar!",
+          "script": "ಇದೋ ತೊಗೊಳಿ, ಚಿಲ್ಲರೆ ಇದೆ. ಧನ್ಯವಾದ ಸಾರ್!",
+          "pronunciation": "i-do to-GO-li, CHIL-la-re i-de. DHAN-ya-vaa-da saar",
+          "english": "Here, take it, I have exact change. Thank you sir!"
+        }
+      ]
+    }
+  ]
+}
