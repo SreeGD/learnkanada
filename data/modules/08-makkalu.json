@@ -1,0 +1,266 @@
+{
+  "id": "makkalu",
+  "slug": "08-makkalu",
+  "title": "Chatting with Little Kids",
+  "kannadaTitle": "ಮಕ್ಕಳ ಜೊತೆ ಮಾತು",
+  "emoji": "🧒",
+  "color": "#0D9488",
+  "phase": 3,
+  "lessons": [
+    {
+      "id": "mc-001",
+      "title": "Meeting a Small Child",
+      "scene": "Your neighbour's five-year-old, Anu, is playing on the apartment stairs. She looks up at you shyly. This is your chance to make a little friend.",
+      "steps": [
+        {
+          "type": "choice",
+          "prompt": "Greet the little one warmly and ask her name (use the affectionate, informal form)",
+          "choices": [
+            {
+              "kannada": "Hii putti, ninna hesaru enu?",
+              "script": "ಹಾಯ್ ಪುಟ್ಟಿ, ನಿನ್ನ ಹೆಸರು ಏನು?",
+              "pronunciation": "haay PUT-ti, NIN-na HE-sa-ru EH-nu",
+              "english": "Hi little one, what's your name?",
+              "correct": true
+            },
+            {
+              "kannada": "Namaskara, nimma hesaru enu?",
+              "script": "ನಮಸ್ಕಾರ, ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+              "pronunciation": "na-mas-KAA-ra, NIM-ma HE-sa-ru EH-nu",
+              "english": "Hello, what is your name? (formal)",
+              "correct": false,
+              "hint": "With a tiny child the formal 'nimma' sounds stiff. Use the warm, informal 'ninna' and a sweet word like 'putti'."
+            },
+            {
+              "kannada": "Yaaru neenu? Illi enu maadtidiya?",
+              "script": "ಯಾರು ನೀನು? ಇಲ್ಲಿ ಏನು ಮಾಡ್ತಿದಿಯಾ?",
+              "pronunciation": "YAA-ru nee-nu? IL-li EH-nu MAAD-ti-di-ya",
+              "english": "Who are you? What are you doing here?",
+              "correct": false,
+              "hint": "Too sharp — it'll scare her. Be gentle and friendly: 'putti, ninna hesaru enu?'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "Naanu Anu! Nange aidu varsha.",
+            "script": "ನಾನು ಅನು! ನಂಗೆ ಐದು ವರ್ಷ.",
+            "pronunciation": "NAA-nu A-nu! nan-ge AI-du VAR-sha",
+            "english": "I'm Anu! I'm five years old."
+          },
+          "wrongReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "...(naachkondu sumne nintkollutaale)",
+            "script": "...(ನಾಚ್ಕೊಂಡು ಸುಮ್ನೆ ನಿಂತ್ಕೊಳ್ಳುತಾಳೆ)",
+            "pronunciation": "(she just stands there, shy)",
+            "english": "...(she shyly stays quiet)",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "putti", "script": "ಪುಟ್ಟಿ", "pronunciation": "PUT-ti", "english": "little girl (affectionate); 'putta' for a boy" },
+            { "kannada": "ninna", "script": "ನಿನ್ನ", "pronunciation": "NIN-na", "english": "your (informal)" },
+            { "kannada": "naanu", "script": "ನಾನು", "pronunciation": "NAA-nu", "english": "I / me" },
+            { "kannada": "varsha", "script": "ವರ್ಷ", "pronunciation": "VAR-sha", "english": "year(s) (of age)" }
+          ],
+          "grammarTip": "With small children and close friends you switch to the INFORMAL 'you': 'neenu' (you), 'ninna' (your), and verbs end in '-iya' ('maadtidiya?' = what are you doing?). Sweet address words — 'putta' (boy), 'putti' (girl), 'kanda' (dear) — make a child feel at ease."
+        },
+        {
+          "type": "choice",
+          "prompt": "Ask her sweetly whether she goes to school",
+          "choices": [
+            {
+              "kannada": "Aidaa! Neenu school-ge hogtiya, putti?",
+              "script": "ಐದಾ! ನೀನು ಸ್ಕೂಲ್‌ಗೆ ಹೋಗ್ತಿಯಾ, ಪುಟ್ಟಿ?",
+              "pronunciation": "ai-DAA! NEE-nu skool-ge HOG-ti-ya, PUT-ti",
+              "english": "Five! Do you go to school, little one?",
+              "correct": true
+            },
+            {
+              "kannada": "Neevu school-ge hogtira?",
+              "script": "ನೀವು ಸ್ಕೂಲ್‌ಗೆ ಹೋಗ್ತೀರಾ?",
+              "pronunciation": "NEE-vu skool-ge HOG-tee-ra",
+              "english": "Do you go to school? (formal)",
+              "correct": false,
+              "hint": "Still too formal for a five-year-old. Use 'neenu ... hogtiya?' (informal)."
+            },
+            {
+              "kannada": "Neenu kelsa-ge hogtiya?",
+              "script": "ನೀನು ಕೆಲಸಕ್ಕೆ ಹೋಗ್ತಿಯಾ?",
+              "pronunciation": "NEE-nu KEL-sak-ke HOG-ti-ya",
+              "english": "Do you go to work?",
+              "correct": false,
+              "hint": "She's a little kid — 'kelsa' (work) doesn't fit! Ask about 'school': 'school-ge hogtiya?'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "Houdu! Naanu LKG. Nange aata andre ishta!",
+            "script": "ಹೌದು! ನಾನು ಎಲ್‌ಕೆಜಿ. ನಂಗೆ ಆಟ ಅಂದ್ರೆ ಇಷ್ಟ!",
+            "pronunciation": "HOW-du! NAA-nu el-kay-jee. nan-ge AA-ta an-dre ISH-ta",
+            "english": "Yes! I'm in LKG. I love playing!",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "Naanu chikkavlu... school!",
+            "script": "ನಾನು ಚಿಕ್ಕವ್ಲು... ಸ್ಕೂಲ್!",
+            "pronunciation": "NAA-nu CHIK-kav-lu... skool",
+            "english": "I'm little... school!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "school-ge", "script": "ಸ್ಕೂಲ್‌ಗೆ", "pronunciation": "skool-ge", "english": "to school" },
+            { "kannada": "hogtiya?", "script": "ಹೋಗ್ತಿಯಾ?", "pronunciation": "HOG-ti-ya", "english": "do you go? (informal)" },
+            { "kannada": "aata", "script": "ಆಟ", "pronunciation": "AA-ta", "english": "play / game" },
+            { "kannada": "ishta", "script": "ಇಷ್ಟ", "pronunciation": "ISH-ta", "english": "liking / fondness" }
+          ],
+          "grammarTip": "'X andre ishta' = 'I like X' (literally 'as for X, (it's) liking'). 'Nange aata andre ishta' = I love playing. The polite verb 'hogtira?' becomes informal 'hogtiya?' for a child — same verb, friendlier ending."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Aha, tumba jaaNe putti neenu! Chennagi aaadu.",
+          "script": "ಆಹಾ, ತುಂಬಾ ಜಾಣೆ ಪುಟ್ಟಿ ನೀನು! ಚೆನ್ನಾಗಿ ಆಡು.",
+          "pronunciation": "a-haa, TUM-ba JAA-ne PUT-ti NEE-nu! chen-NAA-gi AA-du",
+          "english": "Aha, you're a very clever little girl! Play nicely."
+        }
+      ]
+    },
+    {
+      "id": "mc-002",
+      "title": "Gentle Care & Little Instructions",
+      "scene": "A little later, Anu starts running toward the open compound gate near the road. You need to gently steer her back to safety.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Anu",
+          "speakerEmoji": "👧🏽",
+          "kannada": "Naanu allige oodtini! Catch maadi!",
+          "script": "ನಾನು ಅಲ್ಲಿಗೆ ಓಡ್ತೀನಿ! ಕ್ಯಾಚ್ ಮಾಡಿ!",
+          "pronunciation": "NAA-nu AL-li-ge OOD-tee-ni! kyaach MAA-di",
+          "english": "I'll run over there! Catch me!"
+        },
+        {
+          "type": "choice",
+          "prompt": "Gently call her back and tell her not to run (informal, kind)",
+          "choices": [
+            {
+              "kannada": "Putti, illi baa! Achchage oodbeda kanda.",
+              "script": "ಪುಟ್ಟಿ, ಇಲ್ಲಿ ಬಾ! ಅಲ್ಲಿಗೆ ಓಡ್ಬೇಡ ಕಂದ.",
+              "pronunciation": "PUT-ti, IL-li BAA! AL-li-ge OOD-beh-da KAN-da",
+              "english": "Little one, come here! Don't run over there, dear.",
+              "correct": true
+            },
+            {
+              "kannada": "Illi banni, allige oodbedi.",
+              "script": "ಇಲ್ಲಿ ಬನ್ನಿ, ಅಲ್ಲಿಗೆ ಓಡ್ಬೇಡಿ.",
+              "pronunciation": "IL-li BAN-ni, AL-li-ge OOD-beh-di",
+              "english": "Come here, don't run there. (formal)",
+              "correct": false,
+              "hint": "Formal commands ('banni', 'oodbedi') sound odd to a small child. Use the informal 'baa' (come) and 'oodbeda' (don't run)."
+            },
+            {
+              "kannada": "Hogu hogu, chennagi oodu!",
+              "script": "ಹೋಗು ಹೋಗು, ಚೆನ್ನಾಗಿ ಓಡು!",
+              "pronunciation": "HO-gu HO-gu, chen-NAA-gi OO-du",
+              "english": "Go on, run well!",
+              "correct": false,
+              "hint": "That sends her toward the road — the opposite of safe! Call her back: 'illi baa, oodbeda'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "Yaake? Naanu aaadtaa idini!",
+            "script": "ಯಾಕೆ? ನಾನು ಆಡ್ತಾ ಇದ್ದೀನಿ!",
+            "pronunciation": "YAA-ke? NAA-nu AAD-taa id-DEE-ni",
+            "english": "Why? I'm playing!"
+          },
+          "wrongReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "(gate kade oodtaale) yaaaay!",
+            "script": "(ಗೇಟ್ ಕಡೆ ಓಡ್ತಾಳೆ) ಯಾಯ್!",
+            "pronunciation": "(she runs toward the gate) yaaay!",
+            "english": "(runs toward the gate) yaaay!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "baa", "script": "ಬಾ", "pronunciation": "BAA", "english": "come (informal)" },
+            { "kannada": "oodbeda", "script": "ಓಡ್ಬೇಡ", "pronunciation": "OOD-beh-da", "english": "don't run (informal)" },
+            { "kannada": "kanda", "script": "ಕಂದ", "pronunciation": "KAN-da", "english": "dear little one (affectionate)" },
+            { "kannada": "illi", "script": "ಇಲ್ಲಿ", "pronunciation": "IL-li", "english": "here" }
+          ],
+          "grammarTip": "Informal commands drop the polite '-i': 'banni' → 'baa' (come), 'nodi' → 'nodu' (look). Add '-beda' to forbid: 'oodu' (run) → 'oodbeda' (don't run). Tuck in 'kanda' or 'putti' so it lands as love, not scolding."
+        },
+        {
+          "type": "choice",
+          "prompt": "Explain it's dangerous near the road, and coax her with a treat",
+          "choices": [
+            {
+              "kannada": "Alli car barutte, apaaya kanda. Illi baa, chocolate kodtini.",
+              "script": "ಅಲ್ಲಿ ಕಾರ್ ಬರುತ್ತೆ, ಅಪಾಯ ಕಂದ. ಇಲ್ಲಿ ಬಾ, ಚಾಕ್ಲೇಟ್ ಕೊಡ್ತೀನಿ.",
+              "pronunciation": "AL-li kaar ba-RUT-te, a-PAA-ya KAN-da. IL-li BAA, chaak-let KOD-tee-ni",
+              "english": "Cars come there, it's dangerous, dear. Come here, I'll give you a chocolate.",
+              "correct": true
+            },
+            {
+              "kannada": "Oodu oodu, parvagilla!",
+              "script": "ಓಡು ಓಡು, ಪರವಾಗಿಲ್ಲ!",
+              "pronunciation": "OO-du OO-du, par-VAA-gil-la",
+              "english": "Run, run, it's fine!",
+              "correct": false,
+              "hint": "It is NOT fine near a road! Warn her — 'apaaya' (danger) — and draw her back with a treat."
+            },
+            {
+              "kannada": "Neenu tumba kettavalu!",
+              "script": "ನೀನು ತುಂಬಾ ಕೆಟ್ಟವಳು!",
+              "pronunciation": "NEE-nu TUM-ba KET-ta-va-lu",
+              "english": "You're a very bad girl!",
+              "correct": false,
+              "hint": "Scolding just makes a child resist. Explain the danger kindly and offer a happy reason to come: 'illi baa, chocolate kodtini'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "Chocolate-aa? Sari sari, bartini!",
+            "script": "ಚಾಕ್ಲೇಟಾ? ಸರಿ ಸರಿ, ಬರ್ತೀನಿ!",
+            "pronunciation": "chaak-LE-taa? SA-ri SA-ri, BAR-tee-ni",
+            "english": "Chocolate? Okay okay, I'm coming!",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Anu",
+            "speakerEmoji": "👧🏽",
+            "kannada": "(aldu) nange beda!",
+            "script": "(ಅತ್ತು) ನಂಗೆ ಬೇಡ!",
+            "pronunciation": "(crying) nan-ge BEH-da",
+            "english": "(crying) I don't want to!",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "apaaya", "script": "ಅಪಾಯ", "pronunciation": "a-PAA-ya", "english": "danger" },
+            { "kannada": "car barutte", "script": "ಕಾರ್ ಬರುತ್ತೆ", "pronunciation": "kaar ba-RUT-te", "english": "cars come / a car comes" },
+            { "kannada": "kodtini", "script": "ಕೊಡ್ತೀನಿ", "pronunciation": "KOD-tee-ni", "english": "I'll give" },
+            { "kannada": "sari sari", "script": "ಸರಿ ಸರಿ", "pronunciation": "SA-ri SA-ri", "english": "okay okay / alright" }
+          ],
+          "grammarTip": "Children respond to a reason plus a reward, not a command. 'Apaaya' (danger) names the why; 'kodtini' (I'll give) offers the why-come. Note 'beda' here = 'I don't want (to)' — the same word that means 'don't' in commands."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Olleya putti! Baa, kai hidko. Naavu ottige hogona.",
+          "script": "ಒಳ್ಳೆಯ ಪುಟ್ಟಿ! ಬಾ, ಕೈ ಹಿಡ್ಕೋ. ನಾವು ಒಟ್ಟಿಗೆ ಹೋಗೋಣ.",
+          "pronunciation": "OL-le-ya PUT-ti! BAA, kai HID-ko. NAA-vu OT-ti-ge ho-GO-na",
+          "english": "Good girl! Come, hold my hand. Let's go together."
+        }
+      ]
+    }
+  ]
+}

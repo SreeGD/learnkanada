@@ -122,7 +122,7 @@ export default function HomeClient({ modules, phraseOfDay }: HomeClientProps) {
         {/* Phase 3 */}
         <div>
           <h2 className="text-[#1E293B] font-bold text-base mb-1">📙 Phase 3 — Social &amp; Cultural</h2>
-          <p className="text-xs text-gray-500 mb-3">Phone calls &amp; the temple</p>
+          <p className="text-xs text-gray-500 mb-3">Phone, temple, little kids &amp; the Bhagavad Gita</p>
           {renderModules(phase3)}
         </div>
 

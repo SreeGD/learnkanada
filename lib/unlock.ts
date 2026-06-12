@@ -9,6 +9,8 @@ export const MODULE_SLUGS = [
   '05-shopping',
   '06-phone-maatu',
   '07-devasthana',
+  '08-makkalu',
+  '09-bhagavadgita',
 ] as const
 
 export const SURVIVAL_KIT_UNLOCK_THRESHOLD = 50

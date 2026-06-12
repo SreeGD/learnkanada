@@ -8,6 +8,8 @@ import busData from '@/data/modules/04-bus-railway.json'
 import shoppingData from '@/data/modules/05-shopping.json'
 import phoneData from '@/data/modules/06-phone-maatu.json'
 import templeData from '@/data/modules/07-devasthana.json'
+import kidsData from '@/data/modules/08-makkalu.json'
+import gitaData from '@/data/modules/09-bhagavadgita.json'
 import type { Module, Phrase } from '@/types'
 
 const modules = [
@@ -18,6 +20,8 @@ const modules = [
   shoppingData,
   phoneData,
   templeData,
+  kidsData,
+  gitaData,
 ] as unknown as Module[]
 
 const phrases = survivalKitData.phrases as Phrase[]

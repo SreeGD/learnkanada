@@ -1,0 +1,276 @@
+{
+  "id": "bhagavadgita",
+  "slug": "09-bhagavadgita",
+  "title": "Describing the Bhagavad Gita",
+  "kannadaTitle": "ಭಗವದ್ಗೀತೆ",
+  "emoji": "🕉️",
+  "color": "#D97706",
+  "phase": 3,
+  "lessons": [
+    {
+      "id": "bg-001",
+      "title": "What is the Gita?",
+      "scene": "Over evening coffee, a friend who is new to Hindu texts turns to you: 'I keep hearing about the Bhagavad Gita — what is it, really?' You explain it in simple Kannada.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Friend",
+          "speakerEmoji": "🧑🏻",
+          "kannada": "Bhagavadgita andre enu? Swalpa heli.",
+          "script": "ಭಗವದ್ಗೀತೆ ಅಂದ್ರೆ ಏನು? ಸ್ವಲ್ಪ ಹೇಳಿ.",
+          "pronunciation": "bha-ga-vad-GEE-te an-dre EH-nu? SWAL-pa HEH-li",
+          "english": "What is the Bhagavad Gita? Tell me a little."
+        },
+        {
+          "type": "choice",
+          "prompt": "Explain it is a sacred dialogue between Krishna and Arjuna",
+          "choices": [
+            {
+              "kannada": "Idu Krishna mattu Arjuna-na naduve nadeyo sambhashane.",
+              "script": "ಇದು ಕೃಷ್ಣ ಮತ್ತು ಅರ್ಜುನನ ನಡುವೆ ನಡೆಯೋ ಸಂಭಾಷಣೆ.",
+              "pronunciation": "i-du KRISH-na mat-tu ar-JU-na-na NA-du-ve na-de-yo sam-BHAA-sha-ne",
+              "english": "It is a conversation that takes place between Krishna and Arjuna.",
+              "correct": true
+            },
+            {
+              "kannada": "Idu ondu cinema kathe.",
+              "script": "ಇದು ಒಂದು ಸಿನಿಮಾ ಕಥೆ.",
+              "pronunciation": "i-du ON-du si-ni-MAA KA-the",
+              "english": "It is a movie story.",
+              "correct": false,
+              "hint": "The Gita is a sacred scripture, not a film. Describe it as a 'sambhashane' (dialogue) between Krishna and Arjuna."
+            },
+            {
+              "kannada": "Idu ondu adige pustaka.",
+              "script": "ಇದು ಒಂದು ಅಡಿಗೆ ಪುಸ್ತಕ.",
+              "pronunciation": "i-du ON-du a-DI-ge PUS-ta-ka",
+              "english": "It is a cookbook.",
+              "correct": false,
+              "hint": "Not a cookbook! It's a spiritual dialogue: 'Krishna mattu Arjuna-na sambhashane'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Oh, sambhashane-na? Idu elli nadiyutte?",
+            "script": "ಓ, ಸಂಭಾಷಣೆನಾ? ಇದು ಎಲ್ಲಿ ನಡಿಯುತ್ತೆ?",
+            "pronunciation": "oh, sam-BHAA-sha-ne-na? i-du EL-li na-DI-yut-te",
+            "english": "Oh, a dialogue? Where does it take place?"
+          },
+          "wrongReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Alla, adu pavitra grantha alva?",
+            "script": "ಅಲ್ಲ, ಅದು ಪವಿತ್ರ ಗ್ರಂಥ ಅಲ್ವಾ?",
+            "pronunciation": "AL-la, a-du pa-VIT-ra GRAN-tha al-va",
+            "english": "No, isn't it a sacred scripture?",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "andre enu?", "script": "ಅಂದ್ರೆ ಏನು?", "pronunciation": "an-dre EH-nu", "english": "what does it mean? / what is...?" },
+            { "kannada": "sambhashane", "script": "ಸಂಭಾಷಣೆ", "pronunciation": "sam-BHAA-sha-ne", "english": "dialogue / conversation" },
+            { "kannada": "naduve", "script": "ನಡುವೆ", "pronunciation": "NA-du-ve", "english": "between / amid" },
+            { "kannada": "grantha", "script": "ಗ್ರಂಥ", "pronunciation": "GRAN-tha", "english": "scripture / sacred text" }
+          ],
+          "grammarTip": "'X andre enu?' = 'what is X / what does X mean?' — your go-to for asking about any concept. The genitive (possessive) adds '-na' to names: 'Arjuna' → 'Arjuna-na' (Arjuna's / of Arjuna)."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tell him it happens on the Kurukshetra battlefield, just before a great war",
+          "choices": [
+            {
+              "kannada": "Kurukshetra ranangana-dalli, doddha yuddha shuru aago munche.",
+              "script": "ಕುರುಕ್ಷೇತ್ರ ರಣಾಂಗಣದಲ್ಲಿ, ದೊಡ್ಡ ಯುದ್ಧ ಶುರು ಆಗೋ ಮುಂಚೆ.",
+              "pronunciation": "ku-ru-KSHE-tra ra-NAAN-ga-na-dal-li, DOD-da YUD-dha shu-ru AA-go MUN-che",
+              "english": "On the battlefield of Kurukshetra, just before a great war begins.",
+              "correct": true
+            },
+            {
+              "kannada": "Ondu maduve-ya mane-dalli.",
+              "script": "ಒಂದು ಮದುವೆಯ ಮನೆಯಲ್ಲಿ.",
+              "pronunciation": "ON-du ma-DU-ve-ya MA-ne-dal-li",
+              "english": "In a wedding house.",
+              "correct": false,
+              "hint": "Not a wedding! It unfolds on the Kurukshetra battlefield ('ranangana') before the war."
+            },
+            {
+              "kannada": "Samudra-da teera-dalli.",
+              "script": "ಸಮುದ್ರದ ತೀರದಲ್ಲಿ.",
+              "pronunciation": "sa-MUD-ra-da TEE-ra-dal-li",
+              "english": "On the seashore.",
+              "correct": false,
+              "hint": "Not the seashore — the setting is the Kurukshetra battlefield: 'Kurukshetra ranangana-dalli'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Yuddha-da munche-na? Aaga Arjunige enaaytu?",
+            "script": "ಯುದ್ಧದ ಮುಂಚೆನಾ? ಆಗ ಅರ್ಜುನಿಗೆ ಏನಾಯ್ತು?",
+            "pronunciation": "YUD-dha-da MUN-che-na? AA-ga ar-JU-ni-ge e-NAAY-tu",
+            "english": "Before the war? So what happened to Arjuna then?",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Yuddha-dalli antha kelidde naanu...",
+            "script": "ಯುದ್ಧದಲ್ಲಿ ಅಂತ ಕೇಳಿದ್ದೆ ನಾನು...",
+            "pronunciation": "YUD-dha-dal-li an-tha KE-lid-de NAA-nu",
+            "english": "I had heard it was in a war...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "yuddha", "script": "ಯುದ್ಧ", "pronunciation": "YUD-dha", "english": "war / battle" },
+            { "kannada": "ranangana", "script": "ರಣಾಂಗಣ", "pronunciation": "ra-NAAN-ga-na", "english": "battlefield" },
+            { "kannada": "munche", "script": "ಮುಂಚೆ", "pronunciation": "MUN-che", "english": "before / earlier" },
+            { "kannada": "shuru", "script": "ಶುರು", "pronunciation": "shu-ru", "english": "beginning / start" }
+          ],
+          "grammarTip": "'-dalli' = 'in / on / at': 'ranangana-dalli' (on the battlefield), 'yuddha-dalli' (in the war). 'Munche' = 'before' and 'aagO ... munche' = 'before (something) happens'."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Arjunige tanna bandhugala jote hOraaduvudakke manassu illa, dukha aaytu. Aaga Krishna avanige upadesha maadidaru.",
+          "script": "ಅರ್ಜುನಿಗೆ ತನ್ನ ಬಂಧುಗಳ ಜೊತೆ ಹೋರಾಡುವುದಕ್ಕೆ ಮನಸ್ಸು ಇಲ್ಲ, ದುಃಖ ಆಯ್ತು. ಆಗ ಕೃಷ್ಣ ಅವನಿಗೆ ಉಪದೇಶ ಮಾಡಿದರು.",
+          "pronunciation": "ar-JU-ni-ge TAN-na ban-DHU-ga-la JO-te ho-RAA-du-vu-dak-ke MA-nas-su IL-la, DUH-kha AAY-tu. AA-ga KRISH-na a-va-ni-ge u-pa-DE-sha MAA-di-da-ru",
+          "english": "Arjuna had no heart to fight against his own relatives and grew sorrowful. Then Krishna gave him guidance."
+        }
+      ]
+    },
+    {
+      "id": "bg-002",
+      "title": "The Core Teaching",
+      "scene": "Your friend leans in: 'So what is the Gita actually teaching us?' You sum up its heart in plain Kannada.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Friend",
+          "speakerEmoji": "🧑🏻",
+          "kannada": "Haagadre Gite-ya mukhya paaTha enu?",
+          "script": "ಹಾಗಾದ್ರೆ ಗೀತೆಯ ಮುಖ್ಯ ಪಾಠ ಏನು?",
+          "pronunciation": "HAA-gaad-re GEE-te-ya MUK-hya PAA-tha EH-nu",
+          "english": "So then, what is the main lesson of the Gita?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Sum it up: do your duty, don't worry about the results",
+          "choices": [
+            {
+              "kannada": "Ninna kelasa-vannu maadu, phala-da bagge chinte maadbeda.",
+              "script": "ನಿನ್ನ ಕೆಲಸವನ್ನು ಮಾಡು, ಫಲದ ಬಗ್ಗೆ ಚಿಂತೆ ಮಾಡ್ಬೇಡ.",
+              "pronunciation": "NIN-na KEL-sa-van-nu MAA-du, PHA-la-da BAG-ge CHIN-te MAAD-beh-da",
+              "english": "Do your duty; don't worry about the results.",
+              "correct": true
+            },
+            {
+              "kannada": "Yaava kelasa-vu maadbeda, sumne kuturko.",
+              "script": "ಯಾವ ಕೆಲಸವೂ ಮಾಡ್ಬೇಡ, ಸುಮ್ನೆ ಕೂತ್ಕೋ.",
+              "pronunciation": "YAA-va KEL-sa-vu MAAD-beh-da, SUM-ne KOO-tor-ko",
+              "english": "Don't do any work, just sit idle.",
+              "correct": false,
+              "hint": "The opposite — the Gita urges us to ACT and do our duty ('kelasa maadu'), only without craving the fruits."
+            },
+            {
+              "kannada": "Yaavaglu phala-da bagge maatra yochne maadu.",
+              "script": "ಯಾವಾಗ್ಲೂ ಫಲದ ಬಗ್ಗೆ ಮಾತ್ರ ಯೋಚ್ನೆ ಮಾಡು.",
+              "pronunciation": "yaa-vaag-lu PHA-la-da BAG-ge MAAT-ra YOCH-ne MAA-du",
+              "english": "Always think only about the results.",
+              "correct": false,
+              "hint": "That's the very attachment the Gita warns against. The teaching: act, but 'phala-da bagge chinte maadbeda' (don't fret over results)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Aha! 'Karmanyevaadhikaaraste' anno shloka idene alva?",
+            "script": "ಆಹಾ! 'ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ' ಅನ್ನೋ ಶ್ಲೋಕ ಇದೇನೆ ಅಲ್ವಾ?",
+            "pronunciation": "a-haa! 'kar-ma-nye-vaa-dhi-kaa-ras-te' an-no SHLO-ka i-DE-ne al-va",
+            "english": "Aha! That's the meaning of the shloka 'karmanye-vadhikaraste', isn't it?",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Adu sariyaagi anstilla nange...",
+            "script": "ಅದು ಸರಿಯಾಗಿ ಅನ್ಸ್ತಿಲ್ಲ ನಂಗೆ...",
+            "pronunciation": "a-du sa-ri-YAA-gi ANS-til-la nan-ge",
+            "english": "That doesn't sound quite right to me...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "mukhya", "script": "ಮುಖ್ಯ", "pronunciation": "MUK-hya", "english": "main / important" },
+            { "kannada": "phala", "script": "ಫಲ", "pronunciation": "PHA-la", "english": "fruit / result" },
+            { "kannada": "bagge", "script": "ಬಗ್ಗೆ", "pronunciation": "BAG-ge", "english": "about / regarding" },
+            { "kannada": "chinte maadbeda", "script": "ಚಿಂತೆ ಮಾಡ್ಬೇಡ", "pronunciation": "CHIN-te MAAD-beh-da", "english": "don't worry" }
+          ],
+          "grammarTip": "'Bagge' = 'about/regarding': 'phala-da bagge' = about the results. 'Maadu' is the informal 'do'; '-beda' negates it: 'chinte maadbeda' = don't worry. This captures the famous teaching: act, but stay unattached to the fruits."
+        },
+        {
+          "type": "choice",
+          "prompt": "Add the deeper point: act selflessly, offering the work to God",
+          "choices": [
+            {
+              "kannada": "Swartha illade, devarige arpisi kelasa maadbeku antha Gite helutte.",
+              "script": "ಸ್ವಾರ್ಥ ಇಲ್ಲದೆ, ದೇವರಿಗೆ ಅರ್ಪಿಸಿ ಕೆಲಸ ಮಾಡ್ಬೇಕು ಅಂತ ಗೀತೆ ಹೇಳುತ್ತೆ.",
+              "pronunciation": "SWAAR-tha IL-la-de, DE-va-ri-ge ar-PI-si KEL-sa MAAD-beh-ku an-tha GEE-te HEH-lut-te",
+              "english": "The Gita says we should act without selfishness, offering the work to God.",
+              "correct": true
+            },
+            {
+              "kannada": "Swartha-dinda, bere-yavarannu marithu kelasa maadbeku.",
+              "script": "ಸ್ವಾರ್ಥದಿಂದ, ಬೇರೆಯವರನ್ನು ಮರೆತು ಕೆಲಸ ಮಾಡ್ಬೇಕು.",
+              "pronunciation": "SWAAR-tha-din-da, BE-re-ya-van-nu ma-RE-tu KEL-sa MAAD-beh-ku",
+              "english": "We should act selfishly, forgetting others.",
+              "correct": false,
+              "hint": "That's the reverse of the teaching. The Gita asks us to act 'swartha illade' (without selfishness) and offer it to God."
+            },
+            {
+              "kannada": "Devarannu maretu, duddu maatra maadbeku.",
+              "script": "ದೇವರನ್ನು ಮರೆತು, ದುಡ್ಡು ಮಾತ್ರ ಮಾಡ್ಬೇಕು.",
+              "pronunciation": "DE-va-run-nu ma-RE-tu, DUD-du MAAT-ra MAAD-beh-ku",
+              "english": "We should forget God and only make money.",
+              "correct": false,
+              "hint": "Not the Gita's message. It teaches selfless action 'devarige arpisi' (offered to God), not chasing money alone."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Tumba chennagi heldira! Eega artha aaytu.",
+            "script": "ತುಂಬಾ ಚೆನ್ನಾಗಿ ಹೇಳ್ದಿರಾ! ಈಗ ಅರ್ಥ ಆಯ್ತು.",
+            "pronunciation": "TUM-ba chen-NAA-gi HEL-di-ra! EE-ga AR-tha AAY-tu",
+            "english": "You explained it really well! Now I understand.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Friend",
+            "speakerEmoji": "🧑🏻",
+            "kannada": "Hmm, adu Gite-ya paaTha alla anstu...",
+            "script": "ಹ್ಮ್, ಅದು ಗೀತೆಯ ಪಾಠ ಅಲ್ಲ ಅನ್ಸ್ತು...",
+            "pronunciation": "hmm, a-du GEE-te-ya PAA-tha AL-la ANS-tu",
+            "english": "Hmm, that doesn't seem to be the Gita's lesson...",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "swartha", "script": "ಸ್ವಾರ್ಥ", "pronunciation": "SWAAR-tha", "english": "selfishness / self-interest" },
+            { "kannada": "illade", "script": "ಇಲ್ಲದೆ", "pronunciation": "IL-la-de", "english": "without" },
+            { "kannada": "arpisi", "script": "ಅರ್ಪಿಸಿ", "pronunciation": "ar-PI-si", "english": "offering / dedicating" },
+            { "kannada": "artha aaytu", "script": "ಅರ್ಥ ಆಯ್ತು", "pronunciation": "AR-tha AAY-tu", "english": "(I) understood / it became clear" }
+          ],
+          "grammarTip": "'Illade' = 'without': 'swartha illade' = without selfishness. '-ige' marks the receiver: 'devar-ige arpisi' = offering to God. And 'artha aaytu' (meaning happened) is the natural way to say 'I understood / it clicked'."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Houdu! Gite namage karma, bhakti mattu jnaana - ee moorannu kalisutte. Yaavaglaadru odi nodu.",
+          "script": "ಹೌದು! ಗೀತೆ ನಮಗೆ ಕರ್ಮ, ಭಕ್ತಿ ಮತ್ತು ಜ್ಞಾನ — ಈ ಮೂರನ್ನು ಕಲಿಸುತ್ತೆ. ಯಾವಾಗ್ಲಾದ್ರೂ ಓದಿ ನೋಡು.",
+          "pronunciation": "HOW-du! GEE-te na-ma-ge KAR-ma, BHAK-ti mat-tu JNAA-na - ee MOO-ran-nu ka-LI-sut-te. yaa-vaag-laa-druu O-di NO-du",
+          "english": "Yes! The Gita teaches us three paths — action, devotion and knowledge. Do read it sometime."
+        }
+      ]
+    }
+  ]
+}

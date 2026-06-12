@@ -271,6 +271,138 @@
           "english": "Here, take it, I have exact change. Thank you sir!"
         }
       ]
+    },
+    {
+      "id": "ap-003",
+      "title": "Asking the Auto to Wait (Round Trip)",
+      "scene": "You need to quickly drop a parcel at a friend's flat two streets away and come straight back home. You stop an auto and want it to wait a few minutes and bring you back.",
+      "steps": [
+        {
+          "type": "dialogue",
+          "speaker": "Auto Driver",
+          "speakerEmoji": "🧑🏾",
+          "kannada": "Banni saar, elli hogbeku?",
+          "script": "ಬನ್ನಿ ಸಾರ್, ಎಲ್ಲಿ ಹೋಗ್ಬೇಕು?",
+          "pronunciation": "BAN-ni saar, EL-li HOG-beh-ku",
+          "english": "Come sir, where do you want to go?"
+        },
+        {
+          "type": "choice",
+          "prompt": "Say it's close by, ask him to wait ten minutes and bring you back",
+          "choices": [
+            {
+              "kannada": "Hattira-ne ide. Hattu nimisha kaayri, vaapas karkond banni.",
+              "script": "ಹತ್ತಿರಾನೇ ಇದೆ. ಹತ್ತು ನಿಮಿಷ ಕಾಯ್ರಿ, ವಾಪಸ್ ಕರ್ಕೊಂಡ್ ಬನ್ನಿ.",
+              "pronunciation": "HAT-ti-raa-ne i-de. HAT-tu ni-MI-sha KAAY-ri, VAA-pas KAR-kond BAN-ni",
+              "english": "It's close by. Wait ten minutes and bring me back.",
+              "correct": true
+            },
+            {
+              "kannada": "Doora ide. Kaayodu beda, hogtaa irona.",
+              "script": "ದೂರ ಇದೆ. ಕಾಯೋದು ಬೇಡ, ಹೋಗ್ತಾ ಇರೋಣ.",
+              "pronunciation": "DOO-ra i-de. KAA-yo-du BEH-da, HOG-taa i-RO-na",
+              "english": "It's far. No waiting, let's just keep going.",
+              "correct": false,
+              "hint": "But you need a round trip! Tell him it's near and to wait: 'hattira ide, kaayri, vaapas karkond banni'."
+            },
+            {
+              "kannada": "Hattira ide. Neevu vaapas hogi.",
+              "script": "ಹತ್ತಿರ ಇದೆ. ನೀವು ವಾಪಸ್ ಹೋಗಿ.",
+              "pronunciation": "HAT-ti-ra i-de. NEE-vu VAA-pas HO-gi",
+              "english": "It's near. You go back.",
+              "correct": false,
+              "hint": "That sends HIM away! You want him to wait and take YOU back: 'kaayri, vaapas karkond banni'."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Waiting-ge swalpa jaasti aagutte saar, parvagilla-na?",
+            "script": "ವೈಟಿಂಗ್‌ಗೆ ಸ್ವಲ್ಪ ಜಾಸ್ತಿ ಆಗುತ್ತೆ ಸಾರ್, ಪರವಾಗಿಲ್ಲ-ನಾ?",
+            "pronunciation": "WAI-ting-ge SWAL-pa JAAS-ti AA-gut-te saar, par-VAA-gil-la-naa",
+            "english": "The waiting will cost a bit more, sir — is that okay?"
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Naanu kaayli beka, beda? Sariyaagi heli saar.",
+            "script": "ನಾನು ಕಾಯ್ಲಿ ಬೇಕಾ, ಬೇಡ? ಸರಿಯಾಗಿ ಹೇಳಿ ಸಾರ್.",
+            "pronunciation": "NAA-nu KAAY-li BEH-kaa, BEH-da? sa-ri-YAA-gi HEH-li saar",
+            "english": "Should I wait or not? Tell me properly, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "kaayri", "script": "ಕಾಯ್ರಿ", "pronunciation": "KAAY-ri", "english": "wait (polite)" },
+            { "kannada": "nimisha", "script": "ನಿಮಿಷ", "pronunciation": "ni-MI-sha", "english": "minute" },
+            { "kannada": "vaapas", "script": "ವಾಪಸ್", "pronunciation": "VAA-pas", "english": "back / return" },
+            { "kannada": "karkond banni", "script": "ಕರ್ಕೊಂಡ್ ಬನ್ನಿ", "pronunciation": "KAR-kond BAN-ni", "english": "bring (me) along / take me back" }
+          ],
+          "grammarTip": "'Vaapas' (back/return) is the everyday word for any round trip — 'vaapas banni' (come back), 'vaapas kodi' (give it back). 'Karkond banni' literally is 'taking (me), come' — i.e. bring me along."
+        },
+        {
+          "type": "choice",
+          "prompt": "Agree, and ask how much extra he'll charge for waiting",
+          "choices": [
+            {
+              "kannada": "Parvagilla, eshtu jaasti aagutte?",
+              "script": "ಪರವಾಗಿಲ್ಲ, ಎಷ್ಟು ಜಾಸ್ತಿ ಆಗುತ್ತೆ?",
+              "pronunciation": "par-VAA-gil-la, ESH-tu JAAS-ti AA-gut-te",
+              "english": "That's fine, how much extra will it be?",
+              "correct": true
+            },
+            {
+              "kannada": "Beda, jaasti kodalla.",
+              "script": "ಬೇಡ, ಜಾಸ್ತಿ ಕೊಡಲ್ಲ.",
+              "pronunciation": "BEH-da, JAAS-ti KO-dal-la",
+              "english": "No, I won't pay extra.",
+              "correct": false,
+              "hint": "Waiting time fairly costs a little more. Accept it and just ask the amount: 'eshtu jaasti aagutte?'."
+            },
+            {
+              "kannada": "Eshtu doora aagutte?",
+              "script": "ಎಷ್ಟು ದೂರ ಆಗುತ್ತೆ?",
+              "pronunciation": "ESH-tu DOO-ra AA-gut-te",
+              "english": "How far will it be?",
+              "correct": false,
+              "hint": "'Doora' (far) asks distance, not cost. For the extra charge ask 'eshtu jaasti?' (how much more?)."
+            }
+          ],
+          "correctReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Meter mele nalvattu jaasti haakdini saar. Kutkolli.",
+            "script": "ಮೀಟರ್ ಮೇಲೆ ನಲವತ್ತು ಜಾಸ್ತಿ ಹಾಕ್ದೀನಿ ಸಾರ್. ಕೂತ್ಕೊಳ್ಳಿ.",
+            "pronunciation": "MEE-tar ME-le na-LA-vat-tu JAAS-ti HAAK-dee-ni saar. KOOT-kol-li",
+            "english": "I'll add forty over the meter, sir. Get in.",
+            "correct": true
+          },
+          "wrongReaction": {
+            "speaker": "Auto Driver",
+            "speakerEmoji": "🧑🏾",
+            "kannada": "Haagadre waiting maadakke aagalla saar.",
+            "script": "ಹಾಗಾದ್ರೆ ವೈಟಿಂಗ್ ಮಾಡಕ್ಕೆ ಆಗಲ್ಲ ಸಾರ್.",
+            "pronunciation": "HAA-gaad-re WAI-ting MAA-dak-ke AA-gal-la saar",
+            "english": "In that case I can't wait, sir.",
+            "correct": false
+          },
+          "vocab": [
+            { "kannada": "jaasti", "script": "ಜಾಸ್ತಿ", "pronunciation": "JAAS-ti", "english": "more / extra" },
+            { "kannada": "mele", "script": "ಮೇಲೆ", "pronunciation": "ME-le", "english": "on / over / above" },
+            { "kannada": "haakdini", "script": "ಹಾಕ್ದೀನಿ", "pronunciation": "HAAK-dee-ni", "english": "I'll put / add" },
+            { "kannada": "aagutte", "script": "ಆಗುತ್ತೆ", "pronunciation": "AA-gut-te", "english": "it will become / come to" }
+          ],
+          "grammarTip": "'Mele' = 'on top of / over': 'meter mele' = over (and above) the meter. Useful for any add-on: 'adara mele' (on top of that). 'Eshtu jaasti aagutte?' = 'how much more will it come to?' is your go-to for any surcharge."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "You",
+          "speakerEmoji": "🧑",
+          "kannada": "Sari saar, hattu nimisha-dalli vaapas bartini. Kaayri.",
+          "script": "ಸರಿ ಸಾರ್, ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ವಾಪಸ್ ಬರ್ತೀನಿ. ಕಾಯ್ರಿ.",
+          "pronunciation": "SA-ri saar, HAT-tu ni-MI-sha-dal-li VAA-pas BAR-tee-ni. KAAY-ri",
+          "english": "Okay sir, I'll be back in ten minutes. Please wait."
+        }
+      ]
     }
   ]
 }
