@@ -1,15 +1,17 @@
 import type { AppProgress } from '@/types'
 import { getSurvivalKitPercent, getModulePercent } from './progress'
 
+// Unlock order is the intended learning sequence (not the file-number order).
+// Kids (08-makkalu) is a Phase 1 topic, so it unlocks right after the shop.
 export const MODULE_SLUGS = [
   '01-maneya-kelasa',
   '02-angadi',
+  '08-makkalu',
   '03-auto-prayana',
   '04-bus-railway',
   '05-shopping',
   '06-phone-maatu',
   '07-devasthana',
-  '08-makkalu',
   '09-bhagavadgita',
 ] as const
 
